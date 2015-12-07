@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.5'
+ruby '2.2.0'
 
 gem 'rails', '4.2.0'
 gem 'pg'
@@ -13,6 +13,8 @@ gem 'jquery-rails'
 gem 'foundation-rails', '5.5.1.0'
 
 gem 'awesome_print'
+
+gem 'httparty'
 
 group :development do
   gem 'pry', require: false
