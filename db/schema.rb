@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20151206190847) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "searches", force: :cascade do |t|
+  create_table "saved_searches", force: :cascade do |t|
     t.string   "query"
     t.string   "make"
     t.integer  "min_price",  default: 0
@@ -25,6 +25,6 @@ ActiveRecord::Schema.define(version: 20151206190847) do
     t.datetime "updated_at"
   end
 
-  add_index "searches", ["query"], name: "index_searches_on_query", using: :btree
+  add_index "saved_searches", ["query"], name: "index_saved_searches_on_query", using: :btree
 
 end

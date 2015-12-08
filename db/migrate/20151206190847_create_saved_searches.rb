@@ -1,6 +1,6 @@
-class CreateSearches < ActiveRecord::Migration
+class CreateSavedSearches < ActiveRecord::Migration
   def change
-    create_table :searches do |t|
+    create_table :saved_searches do |t|
       t.string :query
       t.string :make
       t.integer :min_price, default: 0
@@ -9,6 +9,6 @@ class CreateSearches < ActiveRecord::Migration
       t.timestamps
     end
 
-    add_index :searches, :query
+    add_index :saved_searches, :query
   end
 end

@@ -1,0 +1,36 @@
+%h1== Results for saved search ##{@saved_search.id}:
+%ul
+  %li== query: #{@saved_search.query}
+  %li== make: #{@saved_search.make}
+  %li== max price: #{@saved_search.max_price}
+  %li== min price: #{@saved_search.min_price}
+
+%h7== total listings matching search criteria: #{@search_results.total_matching_listings}
+
+%br
+
+%table
+  %thead
+    %tr
+      %th Title
+      %th Price
+      %th Shipping
+      %th Offers?
+      %th Make
+      %th Condition
+      %th Model
+      %th Shop Name
+      %th State
+
+  %tbody
+    - @search_results.listings.each do |listing|
+      %tr
+        %td= listing.title
+        %td= listing.price
+        %td= listing.shipping
+        %td= listing.offers_enabled
+        %td= listing.make
+        %td= listing.condition
+        %td= listing.model
+        %td= listing.shop_name
+        %td= listing.state

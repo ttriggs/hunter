@@ -3,8 +3,7 @@
 Using the Reverb.com API to personalize your gear hunting.
 
 ### Goals
-- [ ] The first goal of this project is to search Reverb.com for effects pedals
-      that match search criteria saved in the app.
+- [x] Be able to search Reverb.com for listings that match search criteria saved in the app.
 - [ ] Display/track the top (15?) search results price sorted low to high with links to the listing.
 - [ ] Be able to 'archive' listings you have already checked or would like to dismiss
 - [ ] Use a customized heuristic for determining which listings are worth viewing for potential pruchase.
