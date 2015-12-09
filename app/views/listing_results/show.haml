@@ -12,25 +12,25 @@
 %table
   %thead
     %tr
+      %th Photos
       %th Title
       %th Price
       %th Shipping
       %th Offers?
       %th Make
-      %th Condition
       %th Model
-      %th Shop Name
-      %th State
+      %th Condition
 
   %tbody
     - @search_results.listings.each do |listing|
       %tr
-        %td= listing.title
-        %td= listing.price
-        %td= listing.shipping
+        %td
+          - listing.display_photos.each do |photo|
+            = link_to((image_tag photo, width:"100"), listing.web_url, target: "_blank")
+        %td= link_to(listing.title, listing.web_url, target: "_blank")
+        %td= listing.display_price
+        %td= listing.display_shipping
         %td= listing.offers_enabled
         %td= listing.make
-        %td= listing.condition
         %td= listing.model
-        %td= listing.shop_name
-        %td= listing.state
+        %td{bgcolor: listing.condition_bg_color}= listing.condition
