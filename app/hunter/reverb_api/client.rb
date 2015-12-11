@@ -14,19 +14,15 @@ module Hunter
       end
 
       def search
-        HTTParty.get(search_url)
+        HTTParty.get(search_url, query: query)
       end
 
       private
 
       attr_reader :endpoint, :query
 
-      def query_string
-        "?#{query}" if query.present?
-      end
-
       def search_url
-        "#{REVERB_API_BASE_URL}/#{endpoint}#{query_string}"
+        "#{REVERB_API_BASE_URL}/#{endpoint}"
       end
     end
   end

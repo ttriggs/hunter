@@ -1,70 +1,27 @@
-class ListingDecorator
-  def initialize(listing)
-    @listing = listing
+class ListingDecorator < OpenStruct
+  def web_url
+    links["web"]["href"]
   end
 
-  def listing_web_url
-    listing[:_links][:web][:href]
+  def links
+    _links
   end
 
-  def make
-    listing[:make]
+  def display_price
+    "$#{price["amount"]}"
   end
 
-  def model
-    listing[:model]
+  def display_shipping
+    "$#{shipping["us_rate"]["amount"]}"
   end
 
-  def finish
-    listing[:finish]
+  def display_photos
+    photos.first(2).map do |data|
+      data["_links"]["small_crop"]["href"]
+    end
   end
 
-  def title
-    listing[:title]
+  def condition_color
+    ConditionColorsDecorator.color_class(condition)
   end
-
-  def created_at
-    listing[:created_at]
-  end
-
-  def shop_name
-    listing[:shop_name]
-  end
-
-  def description
-    listing[:description]
-  end
-
-  def condition
-    listing[:condition]
-  end
-
-  def price
-    listing[:price]
-  end
-
-  def offers_enabled
-    listing[:offers_enabled]
-  end
-
-  def state
-    listing[:state]
-  end
-
-  def _links
-    listing[:_links]
-  end
-
-  def shipping
-    listing[:shipping]
-  end
-
-  def photos
-    listing[:photo]
-  end
-
-
-  private
-
-  attr_reader :listing
 end

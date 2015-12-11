@@ -3,24 +3,16 @@ module Hunter
     MAXIMUM_LISTINGS  = 50
     LISTINGS_ENDPOINT = "listings"
 
-    module DefaultParams
-      USED_CONDITION             = "condition=used"
-      ITEM_IN_US                 = "item_country=US"
-      SHIPS_TO_US                = "ships_to=US"
-      FIRST_PAGE                 = "page=1"
-      MAX_NUMBER_LISTINGS        = "per_page=#{MAXIMUM_LISTINGS}"
-      ACCEPTS_GIFTCARDS          = "accepts_gift_cards=true"
-      SORT_BY_PRICE_LOWEST_FIRST = "sort=price%7Casc"
-      ALL = [
-        USED_CONDITION,
-        ITEM_IN_US,
-        SHIPS_TO_US,
-        FIRST_PAGE,
-        MAX_NUMBER_LISTINGS,
-        ACCEPTS_GIFTCARDS,
-        SORT_BY_PRICE_LOWEST_FIRST
-      ]
-    end
+    DEFAULT_PARAMS = {
+                        condition: "used",
+                        item_country: "US",
+                        ships_to: "US",
+                        page: "1",
+                        per_page: MAXIMUM_LISTINGS,
+                        accepts_gift_cards: true,
+                        sort: "price|asc",
+                        product_type: "effects-pedals"
+                     }
 
     def self.search(saved_search:)
       new(saved_search: saved_search).search
@@ -43,33 +35,20 @@ module Hunter
     end
 
     def search_query
-      (DefaultParams::ALL + saved_search_params).join("&")
+      DEFAULT_PARAMS.merge(saved_search_params).compact
     end
 
     def saved_search_params
-        [
-          query_string,
-          make_string,
-          max_price_string,
-          min_price_string
-        ]
+      {
+        query: saved_search.query,
+        price_max: saved_search.max_price,
+        price_min: saved_search.min_price,
+        make: saved_search_make_value,
+      }
     end
 
-    def query_string
-      "query=#{saved_search.query}"
-    end
-
-    def make_string
-      return "" if saved_search.make.blank?
-      "make=#{saved_search.make}"
-    end
-
-    def max_price_string
-      "price_max=#{saved_search.max_price}"
-    end
-
-    def min_price_string
-      "price_min=#{saved_search.min_price}"
+    def saved_search_make_value
+      saved_search.make if saved_search.make.present?
     end
   end
 end
