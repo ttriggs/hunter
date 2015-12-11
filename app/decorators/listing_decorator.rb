@@ -1,13 +1,4 @@
 class ListingDecorator < OpenStruct
-  CONDITION_COLORS = {
-                        "Like New" => "00FF00",
-                        "Mint" => "72DF3B",
-                        "Excellent" => "008C00",
-                        "Very Good" => "005000",
-                        "Good" => "005500",
-                        "Fair" => "#FFFF00",
-                        "Poor" => "#FFFF00"
-                     }
   def web_url
     links["web"]["href"]
   end
@@ -30,7 +21,7 @@ class ListingDecorator < OpenStruct
     end
   end
 
-  def condition_bg_color
-    CONDITION_COLORS["#{condition}"]
+  def condition_color
+    ConditionColorsDecorator.color_class(condition)
   end
 end
