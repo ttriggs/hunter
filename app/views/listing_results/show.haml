@@ -1,11 +1,5 @@
-%h1== Results for saved search ##{@saved_search.id}:
-%ul
-  %li== query: #{@saved_search.query}
-  %li== make: #{@saved_search.make}
-  %li== max price: #{@saved_search.max_price}
-  %li== min price: #{@saved_search.min_price}
-
-%h7== total listings matching search criteria: #{@search_results.total_matching_listings}
+%h1== Results
+= render 'saved_search_overview', search_results_view: @search_results_view
 
 %br
 
@@ -14,23 +8,17 @@
     %tr
       %th Photos
       %th Title
-      %th Price
-      %th Shipping
+      %th Cost
       %th Offers?
       %th Make
       %th Model
       %th Condition
 
   %tbody
-    - @search_results.listings.each do |listing|
-      %tr
-        %td
-          - listing.display_photos.each do |photo|
-            = link_to((image_tag photo, width:"100"), listing.web_url, target: "_blank")
-        %td= link_to(listing.title, listing.web_url, target: "_blank")
-        %td= listing.display_price
-        %td= listing.display_shipping
-        %td= listing.offers_enabled
-        %td= listing.make
-        %td= listing.model
-        %td{class: listing.condition_color}= listing.condition
+    - if @search_results_view.listings.any?
+
+      = render 'listing_row', listings: @search_results_view.listings
+
+    - else
+
+      %td{colspan: "7"} :( No sweet pedals this time...

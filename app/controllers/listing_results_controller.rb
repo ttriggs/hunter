@@ -1,9 +1,16 @@
 class ListingResultsController < ApplicationController
 
   def show
-    @saved_search = find_saved_search
-    search_results = Hunter::SearchListings.search(saved_search: @saved_search)
-    @search_results = ::ListingsSearchResultsView.new(search_results: search_results)
+    saved_search = find_saved_search
+    @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search)
+  end
+
+  def update
+    saved_search = find_saved_search
+    Hunter::UpdateSavedSearchResults.update(saved_search: saved_search)
+    @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search)
+
+    render :show
   end
 
   private

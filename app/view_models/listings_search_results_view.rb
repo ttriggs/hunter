@@ -1,11 +1,11 @@
 class ListingsSearchResultsView
+  attr_reader :saved_search
 
-  def initialize(search_results: search_results)
-    @search_results = search_results.with_indifferent_access
-  end
+  delegate :total_matching_listings,
+           to: :saved_search
 
-  def total_matching_listings
-    search_results[:total]
+  def initialize(saved_search: saved_search)
+    @saved_search = saved_search
   end
 
   def listings
@@ -14,11 +14,11 @@ class ListingsSearchResultsView
 
   private
 
-  attr_reader :search_results
-
   def decorated_listings
-    search_results[:listings].map do |listing|
-      ListingDecorator.new(listing)
-    end
+    Hunter::Listings.decorate_collection(listings: price_sorted_listings)
+  end
+
+  def price_sorted_listings
+    Listing.for_saved_search(saved_search).cheapest_first
   end
 end

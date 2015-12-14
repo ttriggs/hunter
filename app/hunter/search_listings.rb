@@ -15,23 +15,23 @@ module Hunter
                      }
 
     def self.search(saved_search:)
-      new(saved_search: saved_search).search
+      new(saved_search: saved_search).parsed_search_results
     end
 
     def initialize(saved_search:)
       @saved_search = saved_search
     end
 
-    def search
-      JSON.parse(search_result)
+    def parsed_search_results
+      JSON.parse(search_results).with_indifferent_access
     end
 
     private
 
     attr_reader :saved_search
 
-    def search_result
-      @_search_result ||= Hunter::ReverbAPI::Client.search(endpoint: LISTINGS_ENDPOINT, query: search_query)
+    def search_results
+      @_search_results ||= Hunter::ReverbAPI::Client.search(endpoint: LISTINGS_ENDPOINT, query: search_query)
     end
 
     def search_query

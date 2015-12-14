@@ -7,6 +7,10 @@ class SavedSearchesController < ApplicationController
     @saved_search = SavedSearch.new
   end
 
+  def show
+    redirect_to saved_searches_path
+  end
+
   def edit
     @saved_search = find_saved_search
   end
