@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :saved_searches
 
-  resources :listing_results, only: [:show]
+  resources :listing_results, only: [:show, :update]
 end
