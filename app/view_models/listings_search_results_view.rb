@@ -1,11 +1,11 @@
 class ListingsSearchResultsView
-  attr_reader :saved_search
+  attr_reader :saved_search, :badged_listings
 
-  delegate :total_matching_listings,
-           to: :saved_search
+  delegate :total_matching_listings, to: :badged_listings
 
-  def initialize(saved_search: saved_search)
+  def initialize(saved_search:, badged_listings:)
     @saved_search = saved_search
+    @badged_listings = badged_listings
   end
 
   def listings
@@ -15,10 +15,6 @@ class ListingsSearchResultsView
   private
 
   def decorated_listings
-    Hunter::Listings.decorate_collection(listings: price_sorted_listings)
-  end
-
-  def price_sorted_listings
-    Listing.for_saved_search(saved_search).cheapest_first
+    ListingsDecorator.decorate_collection(listings: badged_listings.price_asc)
   end
 end

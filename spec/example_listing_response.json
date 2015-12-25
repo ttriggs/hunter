@@ -1,1954 +1,1954 @@
 {
-  total: 18,
-  _links: {
-    follow: {
-      href: "/api/my/follows/search?condition=used&item_country=US&price_max=130.0&price_min=30.0&query=catalinbread+overdrive"
+  "total": 18,
+  "_links": {
+    "follow": {
+      "href": "/api/my/follows/search?condition=used&item_country=US&price_max=130.0&price_min=30.0&query=catalinbread+overdrive"
     }
   },
-  listings: [
+  "listings": [
     {
-      make: "Catalinbread",
-      model: "Super Charged OD",
-      finish: "Orange",
-      year: "2010",
-      title: "Catalinbread Super Charged OD 2010 Orange",
-      created_at: "2015-09-28T20:32:16-05:00",
-      shop_name: "Tabb's Tones",
-      description: "Out of production SCOD, in perfect working order. Good quality Velcro on the bottom, original box included.",
-      condition: "Excellent",
-      price: {
-        amount: "99.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Super Charged OD",
+      "finish": "Orange",
+      "year": "2010",
+      "title": "Catalinbread Super Charged OD 2010 Orange",
+      "created_at": "2015-09-28T20:32:16-05:00",
+      "shop_name": "Tabb's Tones",
+      "description": "Out of production SCOD, in perfect working order. Good quality Velcro on the bottom, original box included.",
+      "condition": "Excellent",
+      "price": {
+        "amount": "99.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
         },
-        self: {
-          href: "/api/listings/1130158-catalinbread-super-charged-od-2010-orange"
+        "self": {
+          "href": "/api/listings/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1130158-catalinbread-super-charged-od-2010-orange"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1130158-catalinbread-super-charged-od-2010-orange/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1130158-catalinbread-super-charged-od-2010-orange/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1130158-catalinbread-super-charged-od-2010-orange"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1130158-catalinbread-super-charged-od-2010-orange"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        edit: {
-          href: "/api/listings/1130158-catalinbread-super-charged-od-2010-orange/edit"
+        "edit": {
+          "href": "/api/listings/1130158-catalinbread-super-charged-od-2010-orange/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1130158-catalinbread-super-charged-od-2010-orange"
+        "web": {
+          "href": "https://reverb.com/item/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1130158-catalinbread-super-charged-od-2010-orange/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1130158-catalinbread-super-charged-od-2010-orange/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1130158-catalinbread-super-charged-od-2010-orange"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1130158-catalinbread-super-charged-od-2010-orange"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1130158-catalinbread-super-charged-od-2010-orange"
         },
-        cart: {
-          href: "/api/cart/1130158"
+        "cart": {
+          "href": "/api/cart/1130158"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "10.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "10.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445193701/cbtjtoroxswunhnuvdzr.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445193731/wkr7alwcqnfivipt4fmg.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445193750/fxfwmbljdho0nxmp07zx.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Formula 5",
-      finish: "",
-      title: "Catalinbread Formula 5 Overdrive",
-      created_at: "2015-12-06T20:45:46-06:00",
-      shop_name: "Mike's Basement Shop",
-      description: "Selling my excellent condition formula 5. Fantastic pedal with some really awesome tweed tones. Great for rhythm strumming or screaming leads. Velcro on back. Selling because I'm thinning the herd. Thanks!",
-      condition: "Excellent",
-      price: {
-        amount: "99.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Formula 5",
+      "finish": "",
+      "title": "Catalinbread Formula 5 Overdrive",
+      "created_at": "2015-12-06T20:45:46-06:00",
+      "shop_name": "Mike's Basement Shop",
+      "description": "Selling my excellent condition formula 5. Fantastic pedal with some really awesome tweed tones. Great for rhythm strumming or screaming leads. Velcro on back. Selling because I'm thinning the herd. Thanks!",
+      "condition": "Excellent",
+      "price": {
+        "amount": "99.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449456224/c9hwrf4y9osplatblylf.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449456224/c9hwrf4y9osplatblylf.jpg"
         },
-        self: {
-          href: "/api/listings/1414001-catalinbread-formula-5-overdrive"
+        "self": {
+          "href": "/api/listings/1414001-catalinbread-formula-5-overdrive"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1414001-catalinbread-formula-5-overdrive"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1414001-catalinbread-formula-5-overdrive"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1414001-catalinbread-formula-5-overdrive/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1414001-catalinbread-formula-5-overdrive/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1414001-catalinbread-formula-5-overdrive"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1414001-catalinbread-formula-5-overdrive"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1414001-catalinbread-formula-5-overdrive"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1414001-catalinbread-formula-5-overdrive"
         },
-        edit: {
-          href: "/api/listings/1414001-catalinbread-formula-5-overdrive/edit"
+        "edit": {
+          "href": "/api/listings/1414001-catalinbread-formula-5-overdrive/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1414001-catalinbread-formula-5-overdrive"
+        "web": {
+          "href": "https://reverb.com/item/1414001-catalinbread-formula-5-overdrive"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1414001-catalinbread-formula-5-overdrive/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1414001-catalinbread-formula-5-overdrive/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1414001-catalinbread-formula-5-overdrive"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1414001-catalinbread-formula-5-overdrive"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1414001-catalinbread-formula-5-overdrive"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1414001-catalinbread-formula-5-overdrive"
         },
-        cart: {
-          href: "/api/cart/1414001"
+        "cart": {
+          "href": "/api/cart/1414001"
         }
       },
-      shipping: {
-        local: true,
-        us: true,
-        us_rate: {
-          amount: "7.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": true,
+        "us": true,
+        "us_rate": {
+          "amount": "7.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449456224/c9hwrf4y9osplatblylf.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449456224/c9hwrf4y9osplatblylf.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449456224/c9hwrf4y9osplatblylf.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449456224/c9hwrf4y9osplatblylf.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449456224/c9hwrf4y9osplatblylf.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449456224/c9hwrf4y9osplatblylf.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449456224/c9hwrf4y9osplatblylf.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449456224/c9hwrf4y9osplatblylf.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449456226/z9w6nadcioy79m8civve.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449456226/z9w6nadcioy79m8civve.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449456226/z9w6nadcioy79m8civve.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449456226/z9w6nadcioy79m8civve.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449456226/z9w6nadcioy79m8civve.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449456226/z9w6nadcioy79m8civve.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449456226/z9w6nadcioy79m8civve.jpg"
-            }
-          }
-        }
-      ]
-    },
-    {
-      make: "Catalinbread",
-      model: "Dirty Little Secret MKII Superbass",
-      finish: "Custom Rehouse",
-      year: "",
-      title: "Custom Rehoused Catalinbread Dirty Little Secret MKII Superbass",
-      created_at: "2015-04-02T18:41:41-05:00",
-      shop_name: "Paint Parade",
-      description: "Up for sale is a Catalinbread Dirty Little Secret MK II Superbass pedal, that I rehoused in a custom case.Â  Sounds and works great.Â  This pedal is designed to sound like a Marshall Superbass amp.<br><br>If you're interested in this pedal, or you have another pedal you'd be interested in rehousing...drop me a line.Â  thanks for looking.<br>",
-      condition: "Mint",
-      price: {
-        amount: "100.00",
-        currency: "USD",
-        symbol: "$"
-      },
-      offers_enabled: false,
-      state: {
-        slug: "live",
-        description: "Live"
-      },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
-        },
-        self: {
-          href: "/api/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        update: {
-          method: "PUT",
-          href: "/api/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass/state/end"
-        },
-        want: {
-          method: "PUT",
-          href: "/api/wants/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        edit: {
-          href: "/api/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass/edit"
-        },
-        web: {
-          href: "https://reverb.com/item/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
-        },
-        cart: {
-          href: "/api/cart/598010"
-        }
-      },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "10.00",
-          currency: "USD",
-          symbol: "$"
-        }
-      },
-      photos: [
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449456226/z9w6nadcioy79m8civve.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Super Chili Picoso Clean Boost",
-      finish: "",
-      year: "",
-      title: "Catalinbread Super Chili Picoso Clean Boost",
-      created_at: "2015-03-05T18:16:20-06:00",
-      shop_name: "The Guitar Store",
-      description: "A simple, clean boost, in excellent working order. Original box included.",
-      condition: "Excellent",
-      price: {
-        amount: "100.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Dirty Little Secret MKII Superbass",
+      "finish": "Custom Rehouse",
+      "year": "",
+      "title": "Custom Rehoused Catalinbread Dirty Little Secret MKII Superbass",
+      "created_at": "2015-04-02T18:41:41-05:00",
+      "shop_name": "Paint Parade",
+      "description": "Up for sale is a Catalinbread Dirty Little Secret MK II Superbass pedal, that I rehoused in a custom case.Â  Sounds and works great.Â  This pedal is designed to sound like a Marshall Superbass amp.<br><br>If you're interested in this pedal, or you have another pedal you'd be interested in rehousing...drop me a line.Â  thanks for looking.<br>",
+      "condition": "Mint",
+      "price": {
+        "amount": "100.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": false,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
         },
-        self: {
-          href: "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost"
+        "self": {
+          "href": "/api/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/530280-catalinbread-super-chili-picoso-clean-boost/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/530280-catalinbread-super-chili-picoso-clean-boost"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/530280-catalinbread-super-chili-picoso-clean-boost"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        edit: {
-          href: "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost/edit"
+        "edit": {
+          "href": "/api/listings/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass/edit"
         },
-        web: {
-          href: "https://reverb.com/item/530280-catalinbread-super-chili-picoso-clean-boost"
+        "web": {
+          "href": "https://reverb.com/item/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost/offer"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/530280-catalinbread-super-chili-picoso-clean-boost"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/598010-custom-rehoused-catalinbread-dirty-little-secret-mkii-superbass"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/530280-catalinbread-super-chili-picoso-clean-boost"
-        },
-        cart: {
-          href: "/api/cart/530280"
+        "cart": {
+          "href": "/api/cart/598010"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "8.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "10.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1428017910/qs3x57jx4tg1bfqzf8xb.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600964/xi22blvkwtherris2kkm.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600964/xi22blvkwtherris2kkm.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600964/xi22blvkwtherris2kkm.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600964/xi22blvkwtherris2kkm.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1428017914/nhlu3hu5krktdtvs6hsy.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "WIIO",
-      finish: "Black",
-      year: "",
-      title: "Catalinbread WIIO Black",
-      created_at: "2015-12-07T10:23:43-06:00",
-      shop_name: "Darryl's Analogue Shop",
-      description: "I really love these catalinbread "amp in a pedal" boxes he makes. Â This little guy goes from sounding like a goosed hiwatt all the way to sounding like the Who in their heyday! Â  Loved it in front of a clean amp AND in front of a cranked tweed deluxe and marshall. Â  "But it now" and I'll ship her to ya for free!",
-      condition: "Excellent",
-      price: {
-        amount: "100.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Super Chili Picoso Clean Boost",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Super Chili Picoso Clean Boost",
+      "created_at": "2015-03-05T18:16:20-06:00",
+      "shop_name": "The Guitar Store",
+      "description": "A simple, clean boost, in excellent working order. Original box included.",
+      "condition": "Excellent",
+      "price": {
+        "amount": "100.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449505225/qd3zt8vs3wddywodakod.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
         },
-        self: {
-          href: "/api/listings/1414751-catalinbread-wiio-black"
+        "self": {
+          "href": "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1414751-catalinbread-wiio-black"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1414751-catalinbread-wiio-black/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/530280-catalinbread-super-chili-picoso-clean-boost/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1414751-catalinbread-wiio-black"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1414751-catalinbread-wiio-black"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        edit: {
-          href: "/api/listings/1414751-catalinbread-wiio-black/edit"
+        "edit": {
+          "href": "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1414751-catalinbread-wiio-black"
+        "web": {
+          "href": "https://reverb.com/item/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1414751-catalinbread-wiio-black/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/530280-catalinbread-super-chili-picoso-clean-boost/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1414751-catalinbread-wiio-black"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1414751-catalinbread-wiio-black"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/530280-catalinbread-super-chili-picoso-clean-boost"
         },
-        cart: {
-          href: "/api/cart/1414751"
+        "cart": {
+          "href": "/api/cart/530280"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "0.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "8.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449505225/qd3zt8vs3wddywodakod.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449505225/qd3zt8vs3wddywodakod.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449505225/qd3zt8vs3wddywodakod.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449505225/qd3zt8vs3wddywodakod.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600944/rijwhwse1ygd1hhdk7vo.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600951/l6v4nwj1giskfk4vhgb1.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600957/zrrvx7zq1y6ktfdcxfh5.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1425600964/xi22blvkwtherris2kkm.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1425600964/xi22blvkwtherris2kkm.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1425600964/xi22blvkwtherris2kkm.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1425600964/xi22blvkwtherris2kkm.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Dirty Little Secret MKII",
-      finish: "",
-      year: "",
-      title: "Catalinbread Dirty Little Secret MK II Distortion Plexi Guitar FX Effects Pedal",
-      created_at: "2015-07-20T17:14:48-05:00",
-      shop_name: "312 Vintage Guitars",
-      description: "<span>Up for sale is a great<b>Â </b></span><b>Catalinbread Dirty Little Secret MK II Distortion Plexi Guitar FX Effects Pedal</b><span><b>Â </b>in great shape.</span><div><span><br></span><div><div><br></div><div><span>M</span><span><span>arks and wear from use, but overall in grea<span>t shape.Â </span></span></span><span></span><span>Was kept in a smoke free studio.Â </span><b>Pedal only for sale. Ready for the studio, pedal board or your collection!<br><br><br></b><div>ALL ILLINOIS RESIDENTS SUBJECT TO SALES TAX.</div><div><i>Ask all questions before buying. International shipping available.</i></div><i>SALE IS FINAL. SOLD AS-IS with NO PARTIAL REFUNDS/RETURNS.</i><br><i>Payment required within 72 hours of auction close.Â </i><b><br></b></div><div><span><b><br></b></span></div></div></div>",
-      condition: "Very Good",
-      price: {
-        amount: "109.87",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "WIIO",
+      "finish": "Black",
+      "year": "",
+      "title": "Catalinbread WIIO Black",
+      "created_at": "2015-12-07T10:23:43-06:00",
+      "shop_name": "Darryl's Analogue Shop",
+      "description": "I really love these catalinbread amp in a pedal boxes he makes. Â This little guy goes from sounding like a goosed hiwatt all the way to sounding like the Who in their heyday! Â  Loved it in front of a clean amp AND in front of a cranked tweed deluxe and marshall. Â  But it now and I'll ship her to ya for free!",
+      "condition": "Excellent",
+      "price": {
+        "amount": "100.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449505225/qd3zt8vs3wddywodakod.jpg"
         },
-        self: {
-          href: "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "self": {
+          "href": "/api/listings/1414751-catalinbread-wiio-black"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1414751-catalinbread-wiio-black"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1414751-catalinbread-wiio-black/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1414751-catalinbread-wiio-black"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1414751-catalinbread-wiio-black"
         },
-        edit: {
-          href: "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal/edit"
+        "edit": {
+          "href": "/api/listings/1414751-catalinbread-wiio-black/edit"
         },
-        web: {
-          href: "https://reverb.com/item/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "web": {
+          "href": "https://reverb.com/item/1414751-catalinbread-wiio-black"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1414751-catalinbread-wiio-black/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1414751-catalinbread-wiio-black"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1414751-catalinbread-wiio-black"
         },
-        cart: {
-          href: "/api/cart/911976"
+        "cart": {
+          "href": "/api/cart/1414751"
         }
       },
-      shipping: {
-        local: true,
-        us: true,
-        us_rate: {
-          amount: "8.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "0.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449505225/qd3zt8vs3wddywodakod.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449505225/qd3zt8vs3wddywodakod.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449505225/qd3zt8vs3wddywodakod.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449505225/qd3zt8vs3wddywodakod.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Super Chili Picoso Clean Boost",
-      finish: "",
-      year: "",
-      title: "Catalinbread Super Chili Picoso Blemished MAKE offer! FREE LP bag!",
-      created_at: "2015-09-08T14:36:07-05:00",
-      shop_name: "Catalinbread Mechanisms of Music",
-      description: "<p>The pedal that started Catalinbread.</p><p><em>"Thanks Jack!"</em></p><p>Weâ€™ve been building the Super Chili Picoso for the past 10 years solid for good reason. Based on the famous Jack Orman MOSFET boost it is highly regarded by musicians worldwide. Needless to say, it has a running start in terms of sonic quality. It doesnâ€™t suffer from the hashy unmusical qualities of an opamp boost or brittleness of a poorly tuned bipolar boost. We refined Ormanâ€™s circuit employing top notch components, but not just because the parts were expensive, but because they were the RIGHT parts to our ears. Thus the Super Chili Picoso is a satisfying to play musical device that enhances your playing without getting in the way of creativity. The Super Chili Picoso is a deceptively simple pedal that performs so many duties and solves so many problems that it is a must have in every self-respecting musiciansâ€™ arsenal. Letâ€™s go through a number of these, shall we?!<em><br></em></p><p>Buffer. Have a lot of pedals and/or long cable runs on stage? I donâ€™t care how â€œlow capacitanceâ€ your cables are, they are going to roll off high frequency detail and signal strength. The Super Chili Picosoâ€™s high input impedance (something like 10M ohms) and ultra low output impedance (around 3K ohms) doesnâ€™t let a drop of your tone escape. Just turn the big knob counter-clockwise and go! The Super Chili Picoso is your buffer!</p><p>Overdriver. Ever want to push your slightly self-overdriven amp into a satisfying crunch at the click of a switch? Say you have a lower wattage amp (or you are lucky enough to play a big ole amp LOUDLY) on the edge of breakup and need push it even harder without messing with your ampâ€™s overall character, the Super Chili Picoso is your overdriver!</p><p>Balancer. Do you have an old Danelectro U2 with low output pickups and a Les Paul with hot humbuckers and have a tough time achieving an equal volume level between the two while maintaining the sonic qualities of the two instruments? Set the Super Chili Picosoâ€™s knob to make up the difference! There we are, nice and balanced!</p><p>MORE! Ever finding yourself needing a clean, uncolored volume nudge? Say you have your fuzz set just right and need to make your entire soundstage louder? The Super Chili Picoso delivers from a few decibels to upward of 35dB unadulterated clean boost! (Provided any gear that you have down stream has headroom to spare.) The Super Chili Picoso is your MORE pedal!</p><div><div><div><div><div>While the SCP can be placed anywhere on your pedalboard, where it is placed in the chain of effects will dictate what functions it will perform within the context of your rig. If you want simple buffering with little to no additional volume boost it can be placed wherever youâ€™d like. We suggest that if you have any Germanium or Silicon-based fuzzes (Fuzz Faces, Tonebenders, etc) that you place those before the SCP so that they get a nice direct signal from your pickups and donâ€™t lose interaction your instrumentâ€™s knobs. Buffers can really screw with your volume knob dynamics if they are between the guitarâ€™s pickups and the fuzz in question. Keep the Gain control at minimum or set low to avoid overdriving the inputs of pedals down stream. If higher gain and saturation levels for soloing or creating thicker rhythm parts are desired, place the SCP in front of your overdrive or distortion pedal to boost it by turning up the Gain control to the desired level. Depending on the headroom of the pedal being boosted, you may also get a decent amount of volume boost as well to help you cut through the mix. Just want the whole thing to be louder? Place it last on your pedalboard to boost the output signal of any pedal or combination of effects on your board. This is handy for bumping up the output of certain modulation effects that can sometimes have a volume drop when engaged (real or perceived) to help them stand out in a band mix. Pretty simple, yeah? One of those uncomplicated little problem solvers that just plain sounds good and does its job while not screwing with the great sounds youâ€™ve already got â€“ thatâ€™s the Super Chili Picoso. We hope it helps you get the best sounds from your rig so you can concentrate on making music â€“ and we thank you VERY much for your love and support.</div><div><br></div></div></div></div></div>",
-      condition: "Excellent",
-      price: {
-        amount: "109.99",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Dirty Little Secret MKII",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Dirty Little Secret MK II Distortion Plexi Guitar FX Effects Pedal",
+      "created_at": "2015-07-20T17:14:48-05:00",
+      "shop_name": "312 Vintage Guitars",
+      "description": "<span>Up for sale is a great<b>Â </b></span><b>Catalinbread Dirty Little Secret MK II Distortion Plexi Guitar FX Effects Pedal</b><span><b>Â </b>in great shape.</span><div><span><br></span><div><div><br></div><div><span>M</span><span><span>arks and wear from use, but overall in grea<span>t shape.Â </span></span></span><span></span><span>Was kept in a smoke free studio.Â </span><b>Pedal only for sale. Ready for the studio, pedal board or your collection!<br><br><br></b><div>ALL ILLINOIS RESIDENTS SUBJECT TO SALES TAX.</div><div><i>Ask all questions before buying. International shipping available.</i></div><i>SALE IS FINAL. SOLD AS-IS with NO PARTIAL REFUNDS/RETURNS.</i><br><i>Payment required within 72 hours of auction close.Â </i><b><br></b></div><div><span><b><br></b></span></div></div></div>",
+      "condition": "Very Good",
+      "price": {
+        "amount": "109.87",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
         },
-        self: {
-          href: "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "self": {
+          "href": "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        edit: {
-          href: "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag/edit"
+        "edit": {
+          "href": "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "web": {
+          "href": "https://reverb.com/item/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/911976-catalinbread-dirty-little-secret-mk-ii-distortion-plexi-guitar-fx-effects-pedal"
         },
-        cart: {
-          href: "/api/cart/1057368"
+        "cart": {
+          "href": "/api/cart/911976"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "1.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": true,
+        "us": true,
+        "us_rate": {
+          "amount": "8.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1437430570/fo2pulvdouhasyfhj2s1.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1437430570/jv90k7mnwikoxcj9be6u.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Formula No. 5",
-      finish: "",
-      year: "",
-      title: "Catalinbread Formula No. 5",
-      created_at: "2015-12-07T16:03:25-06:00",
-      shop_name: "Chez Tone",
-      description: "Catalinbread Formula No. 5<br>Foundation overdrive pedal with the response of a Fender Deluxe amp.<br>I have waaaaay to many pedals right now so it's got to go!",
-      condition: "Excellent",
-      price: {
-        amount: "110.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Super Chili Picoso Clean Boost",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Super Chili Picoso Blemished MAKE offer! FREE LP bag!",
+      "created_at": "2015-09-08T14:36:07-05:00",
+      "shop_name": "Catalinbread Mechanisms of Music",
+      "description": "<p>The pedal that started Catalinbread.</p><p><em>Thanks Jack!</em></p><p>Weâ€™ve been building the Super Chili Picoso for the past 10 years solid for good reason. Based on the famous Jack Orman MOSFET boost it is highly regarded by musicians worldwide. Needless to say, it has a running start in terms of sonic quality. It doesnâ€™t suffer from the hashy unmusical qualities of an opamp boost or brittleness of a poorly tuned bipolar boost. We refined Ormanâ€™s circuit employing top notch components, but not just because the parts were expensive, but because they were the RIGHT parts to our ears. Thus the Super Chili Picoso is a satisfying to play musical device that enhances your playing without getting in the way of creativity. The Super Chili Picoso is a deceptively simple pedal that performs so many duties and solves so many problems that it is a must have in every self-respecting musiciansâ€™ arsenal. Letâ€™s go through a number of these, shall we?!<em><br></em></p><p>Buffer. Have a lot of pedals and/or long cable runs on stage? I donâ€™t care how â€œlow capacitanceâ€ your cables are, they are going to roll off high frequency detail and signal strength. The Super Chili Picosoâ€™s high input impedance (something like 10M ohms) and ultra low output impedance (around 3K ohms) doesnâ€™t let a drop of your tone escape. Just turn the big knob counter-clockwise and go! The Super Chili Picoso is your buffer!</p><p>Overdriver. Ever want to push your slightly self-overdriven amp into a satisfying crunch at the click of a switch? Say you have a lower wattage amp (or you are lucky enough to play a big ole amp LOUDLY) on the edge of breakup and need push it even harder without messing with your ampâ€™s overall character, the Super Chili Picoso is your overdriver!</p><p>Balancer. Do you have an old Danelectro U2 with low output pickups and a Les Paul with hot humbuckers and have a tough time achieving an equal volume level between the two while maintaining the sonic qualities of the two instruments? Set the Super Chili Picosoâ€™s knob to make up the difference! There we are, nice and balanced!</p><p>MORE! Ever finding yourself needing a clean, uncolored volume nudge? Say you have your fuzz set just right and need to make your entire soundstage louder? The Super Chili Picoso delivers from a few decibels to upward of 35dB unadulterated clean boost! (Provided any gear that you have down stream has headroom to spare.) The Super Chili Picoso is your MORE pedal!</p><div><div><div><div><div>While the SCP can be placed anywhere on your pedalboard, where it is placed in the chain of effects will dictate what functions it will perform within the context of your rig. If you want simple buffering with little to no additional volume boost it can be placed wherever youâ€™d like. We suggest that if you have any Germanium or Silicon-based fuzzes (Fuzz Faces, Tonebenders, etc) that you place those before the SCP so that they get a nice direct signal from your pickups and donâ€™t lose interaction your instrumentâ€™s knobs. Buffers can really screw with your volume knob dynamics if they are between the guitarâ€™s pickups and the fuzz in question. Keep the Gain control at minimum or set low to avoid overdriving the inputs of pedals down stream. If higher gain and saturation levels for soloing or creating thicker rhythm parts are desired, place the SCP in front of your overdrive or distortion pedal to boost it by turning up the Gain control to the desired level. Depending on the headroom of the pedal being boosted, you may also get a decent amount of volume boost as well to help you cut through the mix. Just want the whole thing to be louder? Place it last on your pedalboard to boost the output signal of any pedal or combination of effects on your board. This is handy for bumping up the output of certain modulation effects that can sometimes have a volume drop when engaged (real or perceived) to help them stand out in a band mix. Pretty simple, yeah? One of those uncomplicated little problem solvers that just plain sounds good and does its job while not screwing with the great sounds youâ€™ve already got â€“ thatâ€™s the Super Chili Picoso. We hope it helps you get the best sounds from your rig so you can concentrate on making music â€“ and we thank you VERY much for your love and support.</div><div><br></div></div></div></div></div>",
+      "condition": "Excellent",
+      "price": {
+        "amount": "109.99",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
         },
-        self: {
-          href: "/api/listings/1415848-catalinbread-formula-no-5"
+        "self": {
+          "href": "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1415848-catalinbread-formula-no-5"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1415848-catalinbread-formula-no-5/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1415848-catalinbread-formula-no-5"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1415848-catalinbread-formula-no-5"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        edit: {
-          href: "/api/listings/1415848-catalinbread-formula-no-5/edit"
+        "edit": {
+          "href": "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1415848-catalinbread-formula-no-5"
+        "web": {
+          "href": "https://reverb.com/item/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1415848-catalinbread-formula-no-5/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1415848-catalinbread-formula-no-5"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1415848-catalinbread-formula-no-5"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1057368-catalinbread-super-chili-picoso-blemished-make-offer-free-lp-bag"
         },
-        cart: {
-          href: "/api/cart/1415848"
+        "cart": {
+          "href": "/api/cart/1057368"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "6.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "1.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525638/cql0kfugkaaf36bqpryy.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525638/cql0kfugkaaf36bqpryy.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525638/cql0kfugkaaf36bqpryy.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525638/cql0kfugkaaf36bqpryy.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1441740953/zl4hwa8ut5waeebmbz8t.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Naga Viper Treble Booster",
-      finish: "Yellow",
-      year: "",
-      title: "Catalinbread Naga Viper Treble Booster Yellow",
-      created_at: "2015-11-26T12:34:20-06:00",
-      shop_name: "Chase's Gear Depot",
-      description: "Awesome Treble Booster with added functionality that the vintage units don't haveÂ <br><br>Goes from Brian May to Iommi to pure Doom in the twist of a few knobsÂ <br><br>Comes with box and original packagingÂ ",
-      condition: "Excellent",
-      price: {
-        amount: "115.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Formula No. 5",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Formula No. 5",
+      "created_at": "2015-12-07T16:03:25-06:00",
+      "shop_name": "Chez Tone",
+      "description": "Catalinbread Formula No. 5<br>Foundation overdrive pedal with the response of a Fender Deluxe amp.<br>I have waaaaay to many pedals right now so it's got to go!",
+      "condition": "Excellent",
+      "price": {
+        "amount": "110.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448562879/g4jitpr7qv8fimf25tux.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
         },
-        self: {
-          href: "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "self": {
+          "href": "/api/listings/1415848-catalinbread-formula-no-5"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1415848-catalinbread-formula-no-5"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1382340-catalinbread-naga-viper-treble-booster-yellow/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1415848-catalinbread-formula-no-5/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1415848-catalinbread-formula-no-5"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1415848-catalinbread-formula-no-5"
         },
-        edit: {
-          href: "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow/edit"
+        "edit": {
+          "href": "/api/listings/1415848-catalinbread-formula-no-5/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "web": {
+          "href": "https://reverb.com/item/1415848-catalinbread-formula-no-5"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1415848-catalinbread-formula-no-5/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1415848-catalinbread-formula-no-5"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1382340-catalinbread-naga-viper-treble-booster-yellow"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1415848-catalinbread-formula-no-5"
         },
-        cart: {
-          href: "/api/cart/1382340"
+        "cart": {
+          "href": "/api/cart/1415848"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "10.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "6.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448562879/g4jitpr7qv8fimf25tux.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1448562879/g4jitpr7qv8fimf25tux.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1448562879/g4jitpr7qv8fimf25tux.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1448562879/g4jitpr7qv8fimf25tux.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525618/bpljfnng6tnfn0arxl9u.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525638/cql0kfugkaaf36bqpryy.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525638/cql0kfugkaaf36bqpryy.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525638/cql0kfugkaaf36bqpryy.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525638/cql0kfugkaaf36bqpryy.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Dirty Little Secret MkI",
-      finish: "Blue",
-      year: "2010",
-      title: "Catalinbread Dirty Little Secret MkI 2010 Blue",
-      created_at: "2015-12-05T07:45:08-06:00",
-      shop_name: "Weaselwerks Music",
-      description: " <p><b><u><span>Catalinbread Dirty Little Secret, Mk1 </span></u></b></p> <p><span>This is the model that started it all for Catalinbreadâ€™s Dirty Little Secret line of a 70s Marshall in a box. The current offering, a v2.2 built in 2010, is used but in good condition. There is some wear on the unit, but it test out fine. The pots and switch are quiet and sounds that come out are really usable and full of character. </span></p> <p><span>And nowâ€¦</span></p> <p><span>Â </span></p> <p><span>I love guitars. Â I canâ€™t say that Iâ€™m a collector because most of mine are not mint, they are not highly sought after due to rarity, etc. â€“ they are enjoyable instruments to play. Â Iâ€™m not really a store though I enjoyed designing the logo. Â That being said, I have tried to describe and photograph the offerings as best as possible. Â Weâ€™ve all been drawn in by that perfectly shot picture of a â€œflametopâ€ guitar only to get it and wonder what put out the flamesâ€¦ Â If you have any questions, please ask.</span></p> <p><span>Â </span></p> ",
-      condition: "Very Good",
-      price: {
-        amount: "120.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Naga Viper Treble Booster",
+      "finish": "Yellow",
+      "year": "",
+      "title": "Catalinbread Naga Viper Treble Booster Yellow",
+      "created_at": "2015-11-26T12:34:20-06:00",
+      "shop_name": "Chase's Gear Depot",
+      "description": "Awesome Treble Booster with added functionality that the vintage units don't haveÂ <br><br>Goes from Brian May to Iommi to pure Doom in the twist of a few knobsÂ <br><br>Comes with box and original packagingÂ ",
+      "condition": "Excellent",
+      "price": {
+        "amount": "115.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448562879/g4jitpr7qv8fimf25tux.jpg"
         },
-        self: {
-          href: "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "self": {
+          "href": "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1382340-catalinbread-naga-viper-treble-booster-yellow/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        edit: {
-          href: "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue/edit"
+        "edit": {
+          "href": "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "web": {
+          "href": "https://reverb.com/item/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1382340-catalinbread-naga-viper-treble-booster-yellow/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1382340-catalinbread-naga-viper-treble-booster-yellow"
         },
-        cart: {
-          href: "/api/cart/1410430"
+        "cart": {
+          "href": "/api/cart/1382340"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "5.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "10.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448562879/g4jitpr7qv8fimf25tux.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1448562879/g4jitpr7qv8fimf25tux.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1448562879/g4jitpr7qv8fimf25tux.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323051/srykvx0oap2lafimqacp.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323051/srykvx0oap2lafimqacp.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323051/srykvx0oap2lafimqacp.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323051/srykvx0oap2lafimqacp.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1448562879/g4jitpr7qv8fimf25tux.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Galileo mk II",
-      finish: "",
-      year: "",
-      title: "Catalinbread Galileo mk II",
-      created_at: "2015-12-07T16:08:21-06:00",
-      shop_name: "Chez Tone",
-      description: "Catalinbread Galileoâ€ƒâ€ƒâ€ƒ<br>Foundation overdrive pedal with the response of a treble boosted Vox AC30<br>Great Brian May tones!<br><br><br>",
-      condition: "Excellent",
-      price: {
-        amount: "120.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Dirty Little Secret MkI",
+      "finish": "Blue",
+      "year": "2010",
+      "title": "Catalinbread Dirty Little Secret MkI 2010 Blue",
+      "created_at": "2015-12-05T07:45:08-06:00",
+      "shop_name": "Weaselwerks Music",
+      "description": " <p><b><u><span>Catalinbread Dirty Little Secret, Mk1 </span></u></b></p> <p><span>This is the model that started it all for Catalinbreadâ€™s Dirty Little Secret line of a 70s Marshall in a box. The current offering, a v2.2 built in 2010, is used but in good condition. There is some wear on the unit, but it test out fine. The pots and switch are quiet and sounds that come out are really usable and full of character. </span></p> <p><span>And nowâ€¦</span></p> <p><span>Â </span></p> <p><span>I love guitars. Â I canâ€™t say that Iâ€™m a collector because most of mine are not mint, they are not highly sought after due to rarity, etc. â€“ they are enjoyable instruments to play. Â Iâ€™m not really a store though I enjoyed designing the logo. Â That being said, I have tried to describe and photograph the offerings as best as possible. Â Weâ€™ve all been drawn in by that perfectly shot picture of a â€œflametopâ€ guitar only to get it and wonder what put out the flamesâ€¦ Â If you have any questions, please ask.</span></p> <p><span>Â </span></p> ",
+      "condition": "Very Good",
+      "price": {
+        "amount": "120.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
         },
-        self: {
-          href: "/api/listings/1415869-catalinbread-galileo-mk-ii"
+        "self": {
+          "href": "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1415869-catalinbread-galileo-mk-ii"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1415869-catalinbread-galileo-mk-ii/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1415869-catalinbread-galileo-mk-ii"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1415869-catalinbread-galileo-mk-ii"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        edit: {
-          href: "/api/listings/1415869-catalinbread-galileo-mk-ii/edit"
+        "edit": {
+          "href": "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1415869-catalinbread-galileo-mk-ii"
+        "web": {
+          "href": "https://reverb.com/item/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1415869-catalinbread-galileo-mk-ii/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1410430-catalinbread-dirty-little-secret-mki-2010-blue/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1415869-catalinbread-galileo-mk-ii"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1415869-catalinbread-galileo-mk-ii"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1410430-catalinbread-dirty-little-secret-mki-2010-blue"
         },
-        cart: {
-          href: "/api/cart/1415869"
+        "cart": {
+          "href": "/api/cart/1410430"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "6.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "5.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323046/k2vudw3zgq2mygx3v5rh.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449526006/oojbfnzz34uco3mk6whm.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323051/srykvx0oap2lafimqacp.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449526006/oojbfnzz34uco3mk6whm.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323051/srykvx0oap2lafimqacp.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449526006/oojbfnzz34uco3mk6whm.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323051/srykvx0oap2lafimqacp.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449526006/oojbfnzz34uco3mk6whm.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323051/srykvx0oap2lafimqacp.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
-            }
-          }
-        }
-      ]
-    },
-    {
-      make: "Catalinbread",
-      model: "Dirty Little Secret",
-      finish: "",
-      year: "",
-      title: "Catalinbread Dirty Little Secret",
-      created_at: "2015-11-29T01:18:05-06:00",
-      shop_name: "Zach's Gear Emporium",
-      description: "<p>This pedal comes mint with it's original box and packaging.</p><p>The Dirty Little Secret has earned itself a well-deserved reputation for replicating the sound and feel of a classic-era Marshall amplifier, supplying one of the most iconic guitar sounds in music. When the JFETs used as the base for the Dirty Little Secret were discontinued, and as the designers' stock of them began to dwindle they knew they had to find ones still being manufactured. However, rather than simply re-voicing around these new JFETs, we decided to push the envelope and provide an amazingly robust feature-set, from ever evolving listening and circuit skills, and pure power of intention. This isn't just "a" Marshall in a box, it's the most versatile and dynamic Marshall-style overdrive out there!<br><br>The "Super Lead" mode expands the range of the DLS MkII with more gain available and more control over your tone sculpting with the addition of the midrange control while still enhancing the touch-sensitive dynamic qualities that make the DLS so great to play. The gain range now goes from classic plexi all the way to modified JCM800 levels and can get even more raw and open than any previous DLS.<br><br>The "Super Bass" mode is a new voicing that gives you the tone and gain structure of a Marshall Super Bass (which is very similar to a JTM45 or JTM50/100). This mode was voiced to really hone in on that elusive in-between "not quite clean, not quite dirty" response that old tube amps were so good at getting. And it was specifically voiced to make fuzz pedals sound great.<br><br>The Dirty Little Secret (DLS) is an overdrive pedal designed to bring you the sound and response of a classic Marshall amplifier. It, like the other pedals in Catalinbread's Foundation Overdrive range of pedals, is designed to be a "foundation" pedal - it is your "always on" pedal that forms the core of your guitar sound which you can enhance and embellish by adding boosters, fuzzes, filters, and other overdrives in front of it - just like you would in front of a real amp. And the reason you can leave it always-on is that you can get a great clean sound just by rolling your guitar's volume knob back! That's the way the old school Marshall players did things!</p><br><br>",
-      condition: "Mint",
-      price: {
-        amount: "120.00",
-        currency: "USD",
-        symbol: "$"
-      },
-      offers_enabled: false,
-      state: {
-        slug: "live",
-        description: "Live"
-      },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448781441/ex9dsham86ecfivcxpjv.jpg"
-        },
-        self: {
-          href: "/api/listings/1390215-catalinbread-dirty-little-secret"
-        },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1390215-catalinbread-dirty-little-secret"
-        },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1390215-catalinbread-dirty-little-secret/state/end"
-        },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1390215-catalinbread-dirty-little-secret"
-        },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1390215-catalinbread-dirty-little-secret"
-        },
-        edit: {
-          href: "/api/listings/1390215-catalinbread-dirty-little-secret/edit"
-        },
-        web: {
-          href: "https://reverb.com/item/1390215-catalinbread-dirty-little-secret"
-        },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1390215-catalinbread-dirty-little-secret"
-        },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1390215-catalinbread-dirty-little-secret"
-        },
-        cart: {
-          href: "/api/cart/1390215"
-        }
-      },
-      shipping: {
-        local: true,
-        us: true,
-        us_rate: {
-          amount: "10.00",
-          currency: "USD",
-          symbol: "$"
-        }
-      },
-      photos: [
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448781441/ex9dsham86ecfivcxpjv.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1448781441/ex9dsham86ecfivcxpjv.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1448781441/ex9dsham86ecfivcxpjv.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1448781441/ex9dsham86ecfivcxpjv.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323056/pqte5eezpwsqgcgyk1ck.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Formula 5F6",
-      finish: "",
-      year: "",
-      title: "Catalinbread Formula 5F6",
-      created_at: "2015-12-07T15:58:31-06:00",
-      shop_name: "Chez Tone",
-      description: "Catalinbread Formula 5F6Â <br>Foundation Overdrive pedal with the response of a Fender Bassman circuit. Â <br>Sounds great but I've got waaaaaay too many pedals right now. Â ",
-      condition: "Excellent",
-      price: {
-        amount: "120.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Galileo mk II",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Galileo mk II",
+      "created_at": "2015-12-07T16:08:21-06:00",
+      "shop_name": "Chez Tone",
+      "description": "Catalinbread Galileoâ€ƒâ€ƒâ€ƒ<br>Foundation overdrive pedal with the response of a treble boosted Vox AC30<br>Great Brian May tones!<br><br><br>",
+      "condition": "Excellent",
+      "price": {
+        "amount": "120.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525381/idtsnw0hko2z587a7hgo.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
         },
-        self: {
-          href: "/api/listings/1415832-catalinbread-formula-5f6"
+        "self": {
+          "href": "/api/listings/1415869-catalinbread-galileo-mk-ii"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1415832-catalinbread-formula-5f6"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1415869-catalinbread-galileo-mk-ii"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1415832-catalinbread-formula-5f6/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1415869-catalinbread-galileo-mk-ii/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1415832-catalinbread-formula-5f6"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1415869-catalinbread-galileo-mk-ii"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1415832-catalinbread-formula-5f6"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1415869-catalinbread-galileo-mk-ii"
         },
-        edit: {
-          href: "/api/listings/1415832-catalinbread-formula-5f6/edit"
+        "edit": {
+          "href": "/api/listings/1415869-catalinbread-galileo-mk-ii/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1415832-catalinbread-formula-5f6"
+        "web": {
+          "href": "https://reverb.com/item/1415869-catalinbread-galileo-mk-ii"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1415832-catalinbread-formula-5f6/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1415869-catalinbread-galileo-mk-ii/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1415832-catalinbread-formula-5f6"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1415869-catalinbread-galileo-mk-ii"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1415832-catalinbread-formula-5f6"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1415869-catalinbread-galileo-mk-ii"
         },
-        cart: {
-          href: "/api/cart/1415832"
+        "cart": {
+          "href": "/api/cart/1415869"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "6.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "6.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525381/idtsnw0hko2z587a7hgo.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525381/idtsnw0hko2z587a7hgo.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525381/idtsnw0hko2z587a7hgo.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525381/idtsnw0hko2z587a7hgo.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525986/bmxgvmwbmd3z3qb4ltaa.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449526006/oojbfnzz34uco3mk6whm.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449526006/oojbfnzz34uco3mk6whm.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449526006/oojbfnzz34uco3mk6whm.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449526006/oojbfnzz34uco3mk6whm.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525424/co0apqtu8auz8uj9esl4.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525424/co0apqtu8auz8uj9esl4.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525424/co0apqtu8auz8uj9esl4.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525424/co0apqtu8auz8uj9esl4.jpg"
-            }
-          }
-        }
-      ]
-    },
-    {
-      make: "Catalinbread",
-      model: "DLS MKII Dirty Little Secret **IN-STORE DEMO**",
-      finish: "Purple",
-      year: "",
-      title: "Catalinbread DLS MKII Dirty Little Secret",
-      created_at: "2014-08-23T08:20:34-05:00",
-      shop_name: "Empire Guitars",
-      description: "In-store demo pedal from our display pedal board. In like-new condition with original box. Fully working.<br>From Catalinbread<br>"Designed from the ground up to deliver the power and response of a 70â€™s era Marshall, the Catalinbread Dirty Little Secret delivers in spades.Â  Integrating key elements of a Marshall pre-amp, the DLS MKII brings that classic tone to a stompbox that is ideal for an â€œalways onâ€ foundation pedal.Â  It stacks with other drives and fuzz pedals easily to provide a platform of classic British tone or will stand alone as an overdrive for that Marshall goodness at any level.Â  The MKII version of the Catalinbread Dirty Little Secret has replaced the Rock/Rawk switch with a two knob â€œtone enhancerâ€ circuit in the form of Presence and Fullness controls while the Master and Pre-Amp controls have been properly labeled to conform with Marshall standards.Â  Presence controls the high treble frequencies and is wide in response for a number of â€œsweet spotsâ€ that narrow band tone controls just canâ€™t deliver.Â  The Fullness knob controls the low frequencies in the â€œcab thumpâ€ range and is best adjusted from zero up until the right amount of chest thumping air is being moved.Â  The Catalinbread Dirty Little Secret MKII is a clear upgrade from the original with added versatility and the same sweet, sweet tone.<br>",
-      condition: "Mint",
-      price: {
-        amount: "124.00",
-        currency: "USD",
-        symbol: "$"
-      },
-      offers_enabled: false,
-      state: {
-        slug: "live",
-        description: "Live"
-      },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
-        },
-        self: {
-          href: "/api/listings/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        update: {
-          method: "PUT",
-          href: "/api/listings/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/251644-catalinbread-dls-mkii-dirty-little-secret/state/end"
-        },
-        want: {
-          method: "PUT",
-          href: "/api/wants/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        edit: {
-          href: "/api/listings/251644-catalinbread-dls-mkii-dirty-little-secret/edit"
-        },
-        web: {
-          href: "https://reverb.com/item/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/251644-catalinbread-dls-mkii-dirty-little-secret"
-        },
-        cart: {
-          href: "/api/cart/251644"
-        }
-      },
-      shipping: {
-        local: true,
-        us: true,
-        us_rate: {
-          amount: "6.00",
-          currency: "USD",
-          symbol: "$"
-        }
-      },
-      photos: [
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449526027/rqtxzvieffylq6rw4yfq.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Formula 5F6",
-      finish: "",
-      year: "",
-      title: "Catalinbread Formula 5F6",
-      created_at: "2015-12-08T09:25:06-06:00",
-      shop_name: "type a store name here",
-      description: "This is a Formula 5F6 Pedal, made to mimic the sound of a Tweed Bassman, and it does!!! Â It's got internal switch to switch to lead mode, which mades it super crazy, runs on 9 to 18 volts, and also has an internal presence switch. Â In perfect condition, velcro never used. Â Comes with box, I ship super fast.",
-      condition: "Excellent",
-      price: {
-        amount: "125.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Dirty Little Secret",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Dirty Little Secret",
+      "created_at": "2015-11-29T01:18:05-06:00",
+      "shop_name": "Zach's Gear Emporium",
+      "description": "<p>This pedal comes mint with it's original box and packaging.</p><p>The Dirty Little Secret has earned itself a well-deserved reputation for replicating the sound and feel of a classic-era Marshall amplifier, supplying one of the most iconic guitar sounds in music. When the JFETs used as the base for the Dirty Little Secret were discontinued, and as the designers' stock of them began to dwindle they knew they had to find ones still being manufactured. However, rather than simply re-voicing around these new JFETs, we decided to push the envelope and provide an amazingly robust feature-set, from ever evolving listening and circuit skills, and pure power of intention. This isn't just  Marshall in a box, it's the most versatile and dynamic Marshall-style overdrive out there!<br><br>The Super Lead mode expands the range of the DLS MkII with more gain available and more control over your tone sculpting with the addition of the midrange control while still enhancing the touch-sensitive dynamic qualities that make the DLS so great to play. The gain range now goes from classic plexi all the way to modified JCM800 levels and can get even more raw and open than any previous DLS.<br><br>The Super Bass mode is a new voicing that gives you the tone and gain structure of a Marshall Super Bass (which is very similar to a JTM45 or JTM50/100). This mode was voiced to really hone in on that elusive in-between not quite clean, not quite dirty response that old tube amps were so good at getting. And it was specifically voiced to make fuzz pedals sound great.<br><br>The Dirty Little Secret (DLS) is an overdrive pedal designed to bring you the sound and response of a classic Marshall amplifier. It, like the other pedals in Catalinbread's Foundation Overdrive range of pedals, is designed to be a foundation pedal - it is your always on pedal that forms the core of your guitar sound which you can enhance and embellish by adding boosters, fuzzes, filters, and other overdrives in front of it - just like you would in front of a real amp. And the reason you can leave it always-on is that you can get a great clean sound just by rolling your guitar's volume knob back! That's the way the old school Marshall players did things!</p><br><br>",
+      "condition": "Mint",
+      "price": {
+        "amount": "120.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": false,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449588298/hepx9ig83omnokbkkgby.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448781441/ex9dsham86ecfivcxpjv.jpg"
         },
-        self: {
-          href: "/api/listings/1417992-catalinbread-formula-5f6"
+        "self": {
+          "href": "/api/listings/1390215-catalinbread-dirty-little-secret"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1417992-catalinbread-formula-5f6"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1390215-catalinbread-dirty-little-secret"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1417992-catalinbread-formula-5f6/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1390215-catalinbread-dirty-little-secret/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1417992-catalinbread-formula-5f6"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1390215-catalinbread-dirty-little-secret"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1417992-catalinbread-formula-5f6"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1390215-catalinbread-dirty-little-secret"
         },
-        edit: {
-          href: "/api/listings/1417992-catalinbread-formula-5f6/edit"
+        "edit": {
+          "href": "/api/listings/1390215-catalinbread-dirty-little-secret/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1417992-catalinbread-formula-5f6"
+        "web": {
+          "href": "https://reverb.com/item/1390215-catalinbread-dirty-little-secret"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1417992-catalinbread-formula-5f6/offer"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1390215-catalinbread-dirty-little-secret"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1417992-catalinbread-formula-5f6"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1390215-catalinbread-dirty-little-secret"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1417992-catalinbread-formula-5f6"
-        },
-        cart: {
-          href: "/api/cart/1417992"
+        "cart": {
+          "href": "/api/cart/1390215"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "8.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": true,
+        "us": true,
+        "us_rate": {
+          "amount": "10.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449588298/hepx9ig83omnokbkkgby.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1448781441/ex9dsham86ecfivcxpjv.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449588298/hepx9ig83omnokbkkgby.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1448781441/ex9dsham86ecfivcxpjv.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449588298/hepx9ig83omnokbkkgby.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1448781441/ex9dsham86ecfivcxpjv.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449588298/hepx9ig83omnokbkkgby.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1448781441/ex9dsham86ecfivcxpjv.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Dirt Little Secret",
-      finish: "Silver / Black",
-      title: "Catalinbread Dirt Little Secret Silver/black",
-      created_at: "2015-11-15T22:44:57-06:00",
-      shop_name: "Taylor rock shop",
-      description: "Looking for a pedal that gives you the Classic Marshall tone with great versatility. It has two classic circuits. A JCM800 and the other a JTM45/50. This pedal turns your amp into a classic Marshall. You won't be disappointed and it's in great condition. It's lived it's life in my home studio and used very little. Only selling to buy the wampler plexi. I will ship it out the same day it's paid for!!!! ",
-      condition: "Excellent",
-      price: {
-        amount: "126.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Formula 5F6",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Formula 5F6",
+      "created_at": "2015-12-07T15:58:31-06:00",
+      "shop_name": "Chez Tone",
+      "description": "Catalinbread Formula 5F6Â <br>Foundation Overdrive pedal with the response of a Fender Bassman circuit. Â <br>Sounds great but I've got waaaaaay too many pedals right now. Â ",
+      "condition": "Excellent",
+      "price": {
+        "amount": "120.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525381/idtsnw0hko2z587a7hgo.jpg"
         },
-        self: {
-          href: "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black"
+        "self": {
+          "href": "/api/listings/1415832-catalinbread-formula-5f6"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1415832-catalinbread-formula-5f6"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1345800-catalinbread-dirt-little-secret-silver-black/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1415832-catalinbread-formula-5f6/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1345800-catalinbread-dirt-little-secret-silver-black"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1415832-catalinbread-formula-5f6"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1345800-catalinbread-dirt-little-secret-silver-black"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1415832-catalinbread-formula-5f6"
         },
-        edit: {
-          href: "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black/edit"
+        "edit": {
+          "href": "/api/listings/1415832-catalinbread-formula-5f6/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1345800-catalinbread-dirt-little-secret-silver-black"
+        "web": {
+          "href": "https://reverb.com/item/1415832-catalinbread-formula-5f6"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1415832-catalinbread-formula-5f6/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1345800-catalinbread-dirt-little-secret-silver-black"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1415832-catalinbread-formula-5f6"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1345800-catalinbread-dirt-little-secret-silver-black"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1415832-catalinbread-formula-5f6"
         },
-        cart: {
-          href: "/api/cart/1345800"
+        "cart": {
+          "href": "/api/cart/1415832"
         }
       },
-      shipping: {
-        local: true,
-        us: true,
-        us_rate: {
-          amount: "12.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "6.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525381/idtsnw0hko2z587a7hgo.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525381/idtsnw0hko2z587a7hgo.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525381/idtsnw0hko2z587a7hgo.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525381/idtsnw0hko2z587a7hgo.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525402/tziz25xnz2q9sqcghy4c.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449525424/co0apqtu8auz8uj9esl4.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449525424/co0apqtu8auz8uj9esl4.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449525424/co0apqtu8auz8uj9esl4.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449525424/co0apqtu8auz8uj9esl4.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Teaser Stallion Distortion Pedal",
-      finish: "",
-      year: "",
-      title: "Catalinbread Teaser Stallion Distortion Pedal",
-      created_at: "2014-10-09T14:06:50-05:00",
-      shop_name: "BM Studios",
-      description: "The Catalinbread Teaser Stallion distortion pedal is the trusty old war horse of the Catalinbread stable, with a drive circuit that easily conjures up a wide range of dirt, from mellow grit to molten, paint-peeling fury. Flip the mode switch and things get dicey; the Catalinbread Teaser Stallion's second mode lets the oscillations run wild, adding texture and depth to your tone, as well as an element of semi-controllable chaos. The pitch and character of the oscillations can be manipulated by experimenting with the pedal's controls, your guitar's volume and tone knobs, or by pairing the Catalinbread Teaser Stallion with other pedals. The Catalinbread Semaphore Tremolo makes an excellent mate for the Stallion, interacting in myriad ways for some exciting textures from this endlessly inspiring pedal.",
-      condition: "Mint",
-      price: {
-        amount: "130.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "DLS MKII Dirty Little Secret **IN-STORE DEMO**",
+      "finish": "Purple",
+      "year": "",
+      "title": "Catalinbread DLS MKII Dirty Little Secret",
+      "created_at": "2014-08-23T08:20:34-05:00",
+      "shop_name": "Empire Guitars",
+      "description": "In-store demo pedal from our display pedal board. In like-new condition with original box. Fully working.<br>From Catalinbread<br>Designed from the ground up to deliver the power and response of a 70â€™s era Marshall, the Catalinbread Dirty Little Secret delivers in spades.Â  Integrating key elements of a Marshall pre-amp, the DLS MKII brings that classic tone to a stompbox that is ideal for an â€œalways onâ€ foundation pedal.Â  It stacks with other drives and fuzz pedals easily to provide a platform of classic British tone or will stand alone as an overdrive for that Marshall goodness at any level.Â  The MKII version of the Catalinbread Dirty Little Secret has replaced the Rock/Rawk switch with a two knob â€œtone enhancerâ€ circuit in the form of Presence and Fullness controls while the Master and Pre-Amp controls have been properly labeled to conform with Marshall standards.Â  Presence controls the high treble frequencies and is wide in response for a number of â€œsweet spotsâ€ that narrow band tone controls just canâ€™t deliver.Â  The Fullness knob controls the low frequencies in the â€œcab thumpâ€ range and is best adjusted from zero up until the right amount of chest thumping air is being moved.Â  The Catalinbread Dirty Little Secret MKII is a clear upgrade from the original with added versatility and the same sweet, sweet tone.<br>",
+      "condition": "Mint",
+      "price": {
+        "amount": "124.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": false,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
         },
-        self: {
-          href: "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal"
+        "self": {
+          "href": "/api/listings/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/305639-catalinbread-teaser-stallion-distortion-pedal/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/251644-catalinbread-dls-mkii-dirty-little-secret/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/305639-catalinbread-teaser-stallion-distortion-pedal"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/305639-catalinbread-teaser-stallion-distortion-pedal"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        edit: {
-          href: "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal/edit"
+        "edit": {
+          "href": "/api/listings/251644-catalinbread-dls-mkii-dirty-little-secret/edit"
         },
-        web: {
-          href: "https://reverb.com/item/305639-catalinbread-teaser-stallion-distortion-pedal"
+        "web": {
+          "href": "https://reverb.com/item/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal/offer"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/305639-catalinbread-teaser-stallion-distortion-pedal"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/251644-catalinbread-dls-mkii-dirty-little-secret"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/305639-catalinbread-teaser-stallion-distortion-pedal"
-        },
-        cart: {
-          href: "/api/cart/305639"
+        "cart": {
+          "href": "/api/cart/251644"
         }
       },
-      shipping: {
-        local: true,
-        us: true,
-        us_rate: {
-          amount: "5.35",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": true,
+        "us": true,
+        "us_rate": {
+          "amount": "6.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
-            }
-          }
-        },
-        {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
-            },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
-            },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
-            },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1408799661/vdqkzwjhaiqpts0ggdg0.jpg"
             }
           }
         }
       ]
     },
     {
-      make: "Catalinbread",
-      model: "Dirty Little Secret MKII",
-      finish: "Black",
-      year: "2011",
-      title: "Catalinbread Dirty Little Secret MKII 2011 Black",
-      created_at: "2015-12-05T07:48:08-06:00",
-      shop_name: "Weaselwerks Music",
-      description: " <p><b><u><span>Catalinbread Dirty Little Secret, Mk2</span></u></b></p> <p><span>This model improved upon the Mark I version of Catalinbreadâ€™s Dirty Little Secret line of a 70s Marshall in a box. This version allowed the user to further refine their sound over the Mark I through removal of the Rock/Rawk selector switch and the addition of fullness control. The current offering is in almost new conditions and was built in 2011. The pedal comes in its original box. I love these DLS pedals for the fullness of the sound. Unfortunately, I have to thin the collection for other priorities of life. </span></p> <p><span>And nowâ€¦</span>Â </p> <p></p> <p><span>I love guitars. Â I canâ€™t say that Iâ€™m a collector because most of mine are not mint, they are not highly sought after due to rarity, etc. â€“ they are enjoyable instruments to play. Â Iâ€™m not really a store though I enjoyed designing the logo. Â That being said, I have tried to describe and photograph the offerings as best as possible. Â Weâ€™ve all been drawn in by that perfectly shot picture of a â€œflametopâ€ guitar only to get it and wonder what put out the flamesâ€¦ Â If you have any questions, please ask. Â US Shipping only please.</span></p> <p><span>From the Manufacturer:</span></p> <p><span>The Dirty Little Secret MkII (DLS MkII) was designed to be the secret weapon in your tone arsenal. Want to get cranked amp tones at bedroom rocker levels? Playing gigs but have to use whatever amp is provided as the backline? Like your clean amp sound but don't care for its overdrive channel? Enter the Dirty Little Secret! The DLS MkII is an overdrive pedal designed to bring you the sound and response of a '70s-era Marshall amplifier. It, like other pedals in our "amp drive" range of pedals, is designed to be a "foundation" overdrive pedal - it is your "always on" pedal that forms the core of your guitar sound which you can enhance and embellish by adding boosters, fuzzes, filters, and other overdrives in front of it - just like you would in front of a real amp.</span></p> ",
-      condition: "Mint",
-      price: {
-        amount: "130.00",
-        currency: "USD",
-        symbol: "$"
+      "make": "Catalinbread",
+      "model": "Formula 5F6",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Formula 5F6",
+      "created_at": "2015-12-08T09:25:06-06:00",
+      "shop_name": "type a store name here",
+      "description": "This is a Formula 5F6 Pedal, made to mimic the sound of a Tweed Bassman, and it does!!! Â It's got internal switch to switch to lead mode, which mades it super crazy, runs on 9 to 18 volts, and also has an internal presence switch. Â In perfect condition, velcro never used. Â Comes with box, I ship super fast.",
+      "condition": "Excellent",
+      "price": {
+        "amount": "125.00",
+        "currency": "USD",
+        "symbol": "$"
       },
-      offers_enabled: true,
-      state: {
-        slug: "live",
-        description: "Live"
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
       },
-      _links: {
-        photo: {
-          href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449588298/hepx9ig83omnokbkkgby.jpg"
         },
-        self: {
-          href: "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "self": {
+          "href": "/api/listings/1417992-catalinbread-formula-5f6"
         },
-        update: {
-          method: "PUT",
-          href: "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1417992-catalinbread-formula-5f6"
         },
-        end: {
-          method: "PUT",
-          href: "/api/my/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black/state/end"
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1417992-catalinbread-formula-5f6/state/end"
         },
-        want: {
-          method: "PUT",
-          href: "/api/wants/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1417992-catalinbread-formula-5f6"
         },
-        unwant: {
-          method: "DELETE",
-          href: "/api/wants/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1417992-catalinbread-formula-5f6"
         },
-        edit: {
-          href: "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black/edit"
+        "edit": {
+          "href": "/api/listings/1417992-catalinbread-formula-5f6/edit"
         },
-        web: {
-          href: "https://reverb.com/item/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "web": {
+          "href": "https://reverb.com/item/1417992-catalinbread-formula-5f6"
         },
-        make_offer: {
-          method: "POST",
-          href: "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black/offer"
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1417992-catalinbread-formula-5f6/offer"
         },
-        add_to_wishlist: {
-          method: "POST",
-          href: "/api/my/wishlist/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1417992-catalinbread-formula-5f6"
         },
-        remove_from_wishlist: {
-          method: "DELETE",
-          href: "/api/my/wishlist/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1417992-catalinbread-formula-5f6"
         },
-        cart: {
-          href: "/api/cart/1410432"
+        "cart": {
+          "href": "/api/cart/1417992"
         }
       },
-      shipping: {
-        local: false,
-        us: true,
-        us_rate: {
-          amount: "5.00",
-          currency: "USD",
-          symbol: "$"
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "8.00",
+          "currency": "USD",
+          "symbol": "$"
         }
       },
-      photos: [
+      "photos": [
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449588298/hepx9ig83omnokbkkgby.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449588298/hepx9ig83omnokbkkgby.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449588298/hepx9ig83omnokbkkgby.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449588298/hepx9ig83omnokbkkgby.jpg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "make": "Catalinbread",
+      "model": "Dirt Little Secret",
+      "finish": "Silver / Black",
+      "title": "Catalinbread Dirt Little Secret Silver/black",
+      "created_at": "2015-11-15T22:44:57-06:00",
+      "shop_name": "Taylor rock shop",
+      "description": "Looking for a pedal that gives you the Classic Marshall tone with great versatility. It has two classic circuits. A JCM800 and the other a JTM45/50. This pedal turns your amp into a classic Marshall. You won't be disappointed and it's in great condition. It's lived it's life in my home studio and used very little. Only selling to buy the wampler plexi. I will ship it out the same day it's paid for!!!! ",
+      "condition": "Excellent",
+      "price": {
+        "amount": "126.00",
+        "currency": "USD",
+        "symbol": "$"
+      },
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
+      },
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+        },
+        "self": {
+          "href": "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1345800-catalinbread-dirt-little-secret-silver-black/state/end"
+        },
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "edit": {
+          "href": "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black/edit"
+        },
+        "web": {
+          "href": "https://reverb.com/item/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1345800-catalinbread-dirt-little-secret-silver-black/offer"
+        },
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1345800-catalinbread-dirt-little-secret-silver-black"
+        },
+        "cart": {
+          "href": "/api/cart/1345800"
+        }
+      },
+      "shipping": {
+        "local": true,
+        "us": true,
+        "us_rate": {
+          "amount": "12.00",
+          "currency": "USD",
+          "symbol": "$"
+        }
+      },
+      "photos": [
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1447648596/hl1fhv3lvg1xoafrytve.jpg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "make": "Catalinbread",
+      "model": "Teaser Stallion Distortion Pedal",
+      "finish": "",
+      "year": "",
+      "title": "Catalinbread Teaser Stallion Distortion Pedal",
+      "created_at": "2014-10-09T14:06:50-05:00",
+      "shop_name": "BM Studios",
+      "description": "The Catalinbread Teaser Stallion distortion pedal is the trusty old war horse of the Catalinbread stable, with a drive circuit that easily conjures up a wide range of dirt, from mellow grit to molten, paint-peeling fury. Flip the mode switch and things get dicey; the Catalinbread Teaser Stallion's second mode lets the oscillations run wild, adding texture and depth to your tone, as well as an element of semi-controllable chaos. The pitch and character of the oscillations can be manipulated by experimenting with the pedal's controls, your guitar's volume and tone knobs, or by pairing the Catalinbread Teaser Stallion with other pedals. The Catalinbread Semaphore Tremolo makes an excellent mate for the Stallion, interacting in myriad ways for some exciting textures from this endlessly inspiring pedal.",
+      "condition": "Mint",
+      "price": {
+        "amount": "130.00",
+        "currency": "USD",
+        "symbol": "$"
+      },
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
+      },
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+        },
+        "self": {
+          "href": "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/305639-catalinbread-teaser-stallion-distortion-pedal/state/end"
+        },
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "edit": {
+          "href": "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal/edit"
+        },
+        "web": {
+          "href": "https://reverb.com/item/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/305639-catalinbread-teaser-stallion-distortion-pedal/offer"
+        },
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/305639-catalinbread-teaser-stallion-distortion-pedal"
+        },
+        "cart": {
+          "href": "/api/cart/305639"
+        }
+      },
+      "shipping": {
+        "local": true,
+        "us": true,
+        "us_rate": {
+          "amount": "5.35",
+          "currency": "USD",
+          "symbol": "$"
+        }
+      },
+      "photos": [
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445465144/pyqe2slg3oegytrtcbpy.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1445465157/dtmzwdkkgntivif5zgt0.jpg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "make": "Catalinbread",
+      "model": "Dirty Little Secret MKII",
+      "finish": "Black",
+      "year": "2011",
+      "title": "Catalinbread Dirty Little Secret MKII 2011 Black",
+      "created_at": "2015-12-05T07:48:08-06:00",
+      "shop_name": "Weaselwerks Music",
+      "description": "its a pedal",
+      "condition": "Mint",
+      "price": {
+        "amount": "130.00",
+        "currency": "USD",
+        "symbol": "$"
+      },
+      "offers_enabled": true,
+      "state": {
+        "slug": "live",
+        "description": "Live"
+      },
+      "_links": {
+        "photo": {
+          "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+        },
+        "self": {
+          "href": "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "update": {
+          "method": "PUT",
+          "href": "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "end": {
+          "method": "PUT",
+          "href": "/api/my/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black/state/end"
+        },
+        "want": {
+          "method": "PUT",
+          "href": "/api/wants/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "unwant": {
+          "method": "DELETE",
+          "href": "/api/wants/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "edit": {
+          "href": "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black/edit"
+        },
+        "web": {
+          "href": "https://reverb.com/item/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "make_offer": {
+          "method": "POST",
+          "href": "/api/listings/1410432-catalinbread-dirty-little-secret-mkii-2011-black/offer"
+        },
+        "add_to_wishlist": {
+          "method": "POST",
+          "href": "/api/my/wishlist/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "remove_from_wishlist": {
+          "method": "DELETE",
+          "href": "/api/my/wishlist/1410432-catalinbread-dirty-little-secret-mkii-2011-black"
+        },
+        "cart": {
+          "href": "/api/cart/1410432"
+        }
+      },
+      "shipping": {
+        "local": false,
+        "us": true,
+        "us_rate": {
+          "amount": "5.00",
+          "currency": "USD",
+          "symbol": "$"
+        }
+      },
+      "photos": [
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323245/cpfkptrlhd12hwusip1j.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323245/cpfkptrlhd12hwusip1j.jpg"
             }
           }
         },
         {
-          _links: {
-            large_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
             },
-            small_crop: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
             },
-            full: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
             },
-            thumbnail: {
-              href: "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323247/ikoa6ohqgsymknfvgixz.jpg"
+            }
+          }
+        },
+        {
+          "_links": {
+            "large_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_640,q_85,w_640/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+            },
+            "small_crop": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_296,q_85,w_296/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+            },
+            "full": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_limit,f_auto,fl_progressive,h_1136,q_75,w_640/v1449323250/bg8pywck52nlsguhsxm4.jpg"
+            },
+            "thumbnail": {
+              "href": "https://reverb-res.cloudinary.com/image/upload/a_exif,c_thumb,f_auto,fl_progressive,g_south,h_192,w_192/v1449323250/bg8pywck52nlsguhsxm4.jpg"
             }
           }
         }
@@ -1956,3 +1956,4 @@
     }
   ]
 }
+

@@ -23,7 +23,10 @@ module Hunter
     end
 
     def parsed_search_results
-      JSON.parse(search_results).with_indifferent_access
+      Hunter::SearchResult.parse(raw_search_result: search_results.body)
+      # JSON.parse(search_results).with_indifferent_access
+      # for working off-line:
+      # JSON.parse(File.read('spec/example_listing_response.json')).with_indifferent_access
     end
 
     private

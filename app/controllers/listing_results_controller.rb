@@ -2,15 +2,10 @@ class ListingResultsController < ApplicationController
 
   def show
     saved_search = find_saved_search
-    @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search)
-  end
+    badged_listings = Hunter::ListingsFromSearchResults.create_listings(saved_search: saved_search)
+    @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search,
+                                                         badged_listings: badged_listings)
 
-  def update
-    saved_search = find_saved_search
-    Hunter::UpdateSavedSearchResults.update(saved_search: saved_search)
-    @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search)
-
-    render :show
   end
 
   private

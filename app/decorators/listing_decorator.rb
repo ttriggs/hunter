@@ -1,12 +1,16 @@
 class ListingDecorator
-  delegate :photos,
-           :title,
+  attr_reader :listing
+
+  delegate :title,
            :url,
            :offers,
            :make,
-           :price_cents,
-           :shipping_cents,
+           :product_price,
+           :shipping_price,
+           :total_price,
            :model,
+           :listing_photos,
+           :badges,
            :condition, to: :listing
 
   def initialize(listing)
@@ -14,34 +18,22 @@ class ListingDecorator
   end
 
   def display_price
-    "$#{'%.2f' % price_to_f}"
+    "$#{'%.2f' % product_price}"
   end
 
   def display_shipping
-    "$#{'%.2f' % shipping_to_f}"
+    "$#{'%.2f' % shipping_price}"
   end
 
   def display_total
     "$#{'%.2f' % total_price}"
   end
 
-  def total_price
-    price_to_f + shipping_to_f
-  end
-
   def condition_color
-    ConditionColorsDecorator.color_class(listing.condition)
+    ConditionColorsDecorator.color_class(condition)
   end
 
-  private
-
-  attr_reader :listing
-
-  def price_to_f
-    listing.price_cents / 100.0
-  end
-
-  def shipping_to_f
-    listing.shipping_cents / 100.0
+  def photos
+    listing_photos
   end
 end

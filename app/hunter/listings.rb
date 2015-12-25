@@ -1,17 +1,25 @@
 module Hunter
   class Listings
-    def self.decorate_collection(listings:)
-      new(listings: listings).decorate_collection
+    delegate :map, to: :listings
+
+    def initialize(search_results:)
+      @search_results = search_results
     end
 
-    def initialize(listings:)
-      @listings = listings
+    def price_asc
+      listings.sort_by(&:total_price)
     end
 
-    def decorate_collection
-      @listings.map do |listing|
-        ListingDecorator.new(listing)
-      end
+    def [](index)
+      listings[index]
+    end
+
+    def total_matching_listings
+      @search_results.total
+    end
+
+    def listings
+      @_listings ||= @search_results.listings.map { |listing| Hunter::Listing.new(listing) }
     end
   end
 end
