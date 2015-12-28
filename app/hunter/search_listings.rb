@@ -1,32 +1,27 @@
 module Hunter
   class SearchListings
-    MAXIMUM_LISTINGS  = 50
+    MAXIMUM_LISTINGS  = 20
     LISTINGS_ENDPOINT = "listings"
 
     DEFAULT_PARAMS = {
                         condition: "used",
-                        item_country: "US",
-                        ships_to: "US",
                         page: "1",
                         per_page: MAXIMUM_LISTINGS,
-                        accepts_gift_cards: true,
                         sort: "price|asc",
+                        item_country: "US",
                         product_type: "effects-pedals"
                      }
 
     def self.search(saved_search:)
-      new(saved_search: saved_search).parsed_search_results
+      new(saved_search: saved_search).search
     end
 
     def initialize(saved_search:)
       @saved_search = saved_search
     end
 
-    def parsed_search_results
-      Hunter::SearchResult.parse(raw_search_result: search_results.body)
-      # JSON.parse(search_results).with_indifferent_access
-      # for working off-line:
-      # JSON.parse(File.read('spec/example_listing_response.json')).with_indifferent_access
+    def search
+      Hunter::SearchResults.new(raw_search_results: search_results.body)
     end
 
     private

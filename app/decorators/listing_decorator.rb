@@ -3,7 +3,7 @@ class ListingDecorator
 
   delegate :title,
            :url,
-           :offers,
+           :offers_enabled,
            :make,
            :product_price,
            :shipping_price,

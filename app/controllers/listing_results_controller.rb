@@ -2,10 +2,9 @@ class ListingResultsController < ApplicationController
 
   def show
     saved_search = find_saved_search
-    badged_listings = Hunter::ListingsFromSearchResults.create_listings(saved_search: saved_search)
+    search_results = Hunter::RetrieveListingsForSavedSearch.retrieve_listings(saved_search: saved_search)
     @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search,
-                                                         badged_listings: badged_listings)
-
+                                                         search_results: search_results)
   end
 
   private

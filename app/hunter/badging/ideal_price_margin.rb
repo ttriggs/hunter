@@ -10,7 +10,7 @@ module Hunter
   module Badging
     class IdealPriceMargin
       BADGE = "LowPriceGroup"
-      MAX_LISTINGS_TO_CONSIDER = 3
+      MAX_LISTINGS_TO_CONSIDER = 4
       MINIMUM_PRICE_MARGIN_FOR_BADGE = 4 # USD
 
       def self.badge_listings(listings:)
@@ -49,7 +49,7 @@ module Hunter
         price_next_cheapest = next_listing.try(:total_price)
         return 0 unless price_next_cheapest.present?
 
-        price_next_cheapest - price_current
+        (price_next_cheapest - price_current).round(2)
       end
 
       # when stepping through cheapest listings, take all listings
@@ -68,7 +68,7 @@ module Hunter
       end
 
       def cheapest_listings
-        @_cheapest_listings ||= listings.price_asc.first(MAX_LISTINGS_TO_CONSIDER)
+        @_cheapest_listings ||= listings.first(MAX_LISTINGS_TO_CONSIDER)
       end
 
       def significant_price_margin?(price_margin)

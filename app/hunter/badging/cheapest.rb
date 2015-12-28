@@ -12,13 +12,7 @@ module Hunter
       end
 
       def badge_listings
-        cheapest_listing.add_badge(BADGE)
-      end
-
-      private
-
-      def cheapest_listing
-        @listings.price_asc.first
+        @listings.first.add_badge(BADGE)
       end
     end
   end
