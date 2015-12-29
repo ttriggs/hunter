@@ -1,5 +1,5 @@
 module Hunter
-  class SearchResults
+  class SearchListingsResults
     def initialize(raw_search_results:)
       @raw_search_results = raw_search_results
     end
