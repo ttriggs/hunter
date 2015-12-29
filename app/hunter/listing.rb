@@ -1,7 +1,11 @@
 module Hunter
   class Listing < OpenStruct
-    def url
+    def web_url
       links["web"]["href"]
+    end
+
+    def details_url
+      links["self"]["href"]
     end
 
     def links

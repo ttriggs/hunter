@@ -2,9 +2,9 @@
   %tr
     %td
       - listing.photos.each do |photo|
-        = link_to((image_tag photo, width:"100"), listing.url, target: "_blank")
+        = link_to((image_tag photo, width:"100"), listing.web_url, target: "_blank")
     %td
-      %h5= link_to(listing.title, listing.url, target: "_blank")
+      %h5= link_to(listing.title, listing.web_url, target: "_blank")
 
     %td
       - listing.badges.each do |badge|
