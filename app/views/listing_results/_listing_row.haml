@@ -1,0 +1,19 @@
+- listings.each do |listing|
+  %tr
+    %td
+      - listing.photos.each do |photo|
+        = link_to((image_tag photo, width:"100"), listing.url, target: "_blank")
+    %td
+      %h5= link_to(listing.title, listing.url, target: "_blank")
+
+    %td
+      - listing.badges.each do |badge|
+        %p= badge
+    %td
+      %p== T: #{listing.display_total}
+      %p P: #{listing.display_price}
+      %p S: #{listing.display_shipping}
+    %td= listing.offers_enabled
+    %td= listing.make
+    %td= listing.model
+    %td{class: listing.condition_color}= listing.condition

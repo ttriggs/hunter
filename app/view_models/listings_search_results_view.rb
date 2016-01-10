@@ -1,11 +1,13 @@
 class ListingsSearchResultsView
+  attr_reader :saved_search, :search_results
 
-  def initialize(search_results: search_results)
-    @search_results = search_results.with_indifferent_access
-  end
+  delegate :total_matching_listings,
+           :listings,
+           to: :search_results
 
-  def total_matching_listings
-    search_results[:total]
+  def initialize(saved_search:, search_results:)
+    @saved_search = saved_search
+    @search_results = search_results
   end
 
   def listings
@@ -14,11 +16,7 @@ class ListingsSearchResultsView
 
   private
 
-  attr_reader :search_results
-
   def decorated_listings
-    search_results[:listings].map do |listing|
-      ListingDecorator.new(listing)
-    end
+    ListingsDecorator.decorate_collection(listings: search_results.listings)
   end
 end

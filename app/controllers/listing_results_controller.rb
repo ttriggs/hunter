@@ -1,9 +1,10 @@
 class ListingResultsController < ApplicationController
 
   def show
-    @saved_search = find_saved_search
-    search_results = Hunter::SearchListings.search(saved_search: @saved_search)
-    @search_results = ::ListingsSearchResultsView.new(search_results: search_results)
+    saved_search = find_saved_search
+    search_results = Hunter::RetrieveListingsForSavedSearch.retrieve_listings(saved_search: saved_search)
+    @search_results_view = ListingsSearchResultsView.new(saved_search: saved_search,
+                                                         search_results: search_results)
   end
 
   private

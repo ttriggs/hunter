@@ -8,6 +8,6 @@ class ConditionColorsDecorator
   end
 
   def color_class
-    @condition.gsub(" ","").underscore
+    @condition.tr("() ","").underscore
   end
 end

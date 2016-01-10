@@ -1,16 +1,14 @@
 module Hunter
   class SearchListings
-    MAXIMUM_LISTINGS  = 50
+    MAXIMUM_LISTINGS  = 20
     LISTINGS_ENDPOINT = "listings"
 
     DEFAULT_PARAMS = {
                         condition: "used",
-                        item_country: "US",
-                        ships_to: "US",
                         page: "1",
                         per_page: MAXIMUM_LISTINGS,
-                        accepts_gift_cards: true,
                         sort: "price|asc",
+                        item_country: "US",
                         product_type: "effects-pedals"
                      }
 
@@ -23,15 +21,15 @@ module Hunter
     end
 
     def search
-      JSON.parse(search_result)
+      Hunter::SearchResults.new(raw_search_results: search_results.body)
     end
 
     private
 
     attr_reader :saved_search
 
-    def search_result
-      @_search_result ||= Hunter::ReverbAPI::Client.search(endpoint: LISTINGS_ENDPOINT, query: search_query)
+    def search_results
+      @_search_results ||= Hunter::ReverbAPI::Client.search(endpoint: LISTINGS_ENDPOINT, query: search_query)
     end
 
     def search_query

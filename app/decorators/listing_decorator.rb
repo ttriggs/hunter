@@ -1,27 +1,39 @@
-class ListingDecorator < OpenStruct
-  def web_url
-    links["web"]["href"]
-  end
+class ListingDecorator
+  attr_reader :listing
 
-  def links
-    _links
+  delegate :title,
+           :url,
+           :offers_enabled,
+           :make,
+           :product_price,
+           :shipping_price,
+           :total_price,
+           :model,
+           :listing_photos,
+           :badges,
+           :condition, to: :listing
+
+  def initialize(listing)
+    @listing = listing
   end
 
   def display_price
-    "$#{price["amount"]}"
+    "$#{'%.2f' % product_price}"
   end
 
   def display_shipping
-    "$#{shipping["us_rate"]["amount"]}"
+    "$#{'%.2f' % shipping_price}"
   end
 
-  def display_photos
-    photos.first(2).map do |data|
-      data["_links"]["small_crop"]["href"]
-    end
+  def display_total
+    "$#{'%.2f' % total_price}"
   end
 
   def condition_color
     ConditionColorsDecorator.color_class(condition)
+  end
+
+  def photos
+    listing_photos
   end
 end
