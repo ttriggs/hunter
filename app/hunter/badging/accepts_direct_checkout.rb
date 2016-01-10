@@ -2,7 +2,7 @@ module Hunter
   module Badging
     class AcceptsDirectCheckout
       BADGE = "Accepts DCO"
-      DCO_STRING = "Reverb Direct Checkout" # FIXME
+      DCO_STRING = "direct_checkout"
 
       def self.badge_listings(listings:)
         new(listings: listings).badge_listings
@@ -14,7 +14,7 @@ module Hunter
 
       def badge_listings
         @listings.each do |listing|
-          listing.add_badge(badge) if accepts_direct_checkout?(listing)
+          listing.add_badge(BADGE) if accepts_direct_checkout?(listing)
         end
       end
 

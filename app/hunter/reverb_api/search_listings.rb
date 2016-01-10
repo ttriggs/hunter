@@ -22,7 +22,7 @@ module Hunter
       end
 
       def search
-        Hunter::ReverbAPI::SearchListingsResults.new(raw_search_results: search_results.body)
+        SearchListingsResults.new(raw_search_results: search_results.body)
       end
 
       private
@@ -30,7 +30,7 @@ module Hunter
       attr_reader :saved_search
 
       def search_results
-        @_search_results ||= Hunter::ReverbAPI::Client.search(endpoint: LISTINGS_ENDPOINT, query: search_query)
+        @_search_results ||= Client.search(endpoint: LISTINGS_ENDPOINT, query: search_query)
       end
 
       def search_query

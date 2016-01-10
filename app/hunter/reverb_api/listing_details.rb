@@ -10,7 +10,7 @@ module Hunter
       end
 
       def details
-        Hunter::ReverbAPI::ListingDetailsResult.parsed(response: response)
+        ListingDetailsResult.new(response: response)
       end
 
       private
@@ -18,7 +18,11 @@ module Hunter
       attr_reader :listing
 
       def response
-        @_response ||= Hunter::ReverbAPI::Client.get(endpoint: listing.details_url)
+        @_response ||= Hunter::ReverbAPI::Client.get(endpoint: "listings/#{slug}")
+      end
+
+      def slug
+        listing.details_url.split("/").last
       end
     end
   end
