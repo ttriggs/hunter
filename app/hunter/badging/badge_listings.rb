@@ -1,4 +1,4 @@
-require_relative 'badging_klasses'
+# require_relative 'badging_klasses'
 
 module Hunter
   module Badging
