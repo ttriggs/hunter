@@ -5,6 +5,7 @@ module Hunter
         Hunter::Badging::Cheapest,
         Hunter::Badging::IdealPriceMargin,
         Hunter::Badging::AcceptsDirectCheckout,
+        Hunter::Badging::MultipleRecentSales, # should be run after IdealPriceMargin
       ]
     end
   end

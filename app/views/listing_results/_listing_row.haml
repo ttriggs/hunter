@@ -8,7 +8,7 @@
 
     %td
       - listing.badges.each do |badge|
-        %p= badge
+        %p= badge.html_safe
     %td
       %p== T: #{listing.display_total}
       %p P: #{listing.display_price}

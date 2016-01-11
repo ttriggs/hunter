@@ -9,6 +9,14 @@ module Hunter
         parsed_results["accepted_payment_methods"]
       end
 
+      def price_guide_synopsis
+        parsed_results["_embedded"]["price_guide"]
+      end
+
+      def price_guide_web_url
+        price_guide_synopsis["_links"]["web"]["href"]
+      end
+
       private
 
       def parsed_results

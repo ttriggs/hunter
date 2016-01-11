@@ -21,11 +21,7 @@ module Hunter
       private
 
       def accepts_direct_checkout?(listing)
-        listing_details(listing).payment_methods.include?(DCO_STRING)
-      end
-
-      def listing_details(listing)
-        Hunter::ReverbAPI::ListingDetails.details(listing: listing)
+        listing.listing_details.payment_methods.include?(DCO_STRING)
       end
     end
   end
