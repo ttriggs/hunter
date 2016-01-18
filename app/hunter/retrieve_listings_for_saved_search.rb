@@ -19,7 +19,7 @@ module Hunter
     end
 
     def search_results
-      Hunter::SearchListings.search(saved_search: @saved_search)
+      Hunter::ReverbAPI::SearchListings.search(saved_search: @saved_search)
     end
   end
 end

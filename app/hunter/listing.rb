@@ -1,7 +1,14 @@
 module Hunter
   class Listing < OpenStruct
-    def url
+    delegate :price_guide_synopsis, :price_guide_web_url, to: :listing_details
+    delegate :transactions, :total_transactions, to: :price_guide_details
+
+    def web_url
       links["web"]["href"]
+    end
+
+    def details_url
+      links["self"]["href"]
     end
 
     def links
@@ -34,6 +41,20 @@ module Hunter
 
     def badges
       @badges ||= []
+    end
+
+    def listing_details
+      @_listing_details ||= Hunter::ReverbAPI::ListingDetails.details(listing: self)
+    end
+
+    def price_guide_details
+      @_price_guide_details ||= Hunter::ReverbAPI::PriceGuideDetails.details(listing: self)
+    end
+
+    def total_recent_sales_after(date:)
+      transactions.take_while do |transaction|
+        transaction["date"] > date
+      end.count
     end
   end
 end

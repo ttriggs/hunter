@@ -1,5 +1,3 @@
-require_relative 'badging_klasses'
-
 module Hunter
   module Badging
     class BadgeListings

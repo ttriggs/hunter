@@ -2,7 +2,7 @@ class ListingDecorator
   attr_reader :listing
 
   delegate :title,
-           :url,
+           :web_url,
            :offers_enabled,
            :make,
            :product_price,

@@ -8,20 +8,28 @@ module Hunter
         new(endpoint: endpoint, query: query).search
       end
 
+      def self.get(endpoint:)
+        new(endpoint: endpoint).get
+      end
+
       def initialize(endpoint:, query: "")
         @endpoint = endpoint
         @query = query
       end
 
       def search
-        HTTParty.get(search_url, query: query)
+        HTTParty.get(url, query: query)
+      end
+
+      def get
+        HTTParty.get(url)
       end
 
       private
 
       attr_reader :endpoint, :query
 
-      def search_url
+      def url
         "#{REVERB_API_BASE_URL}/#{endpoint}"
       end
     end

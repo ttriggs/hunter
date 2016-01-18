@@ -12,7 +12,7 @@ module Hunter
       end
 
       def badge_listings
-        @listings.first.add_badge(BADGE)
+        @listings.first.add_badge(BADGE) if @listings.first.present?
       end
     end
   end

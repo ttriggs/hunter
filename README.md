@@ -9,6 +9,9 @@ Using the Reverb.com API to personalize your gear hunting.
 
 #### Possible Heuristics (Badges)
   - [x] Little competition in market (gap in cost between it and next cheapest listing)
-  - [ ] Accepts Reverb Direct Checkout
+  - [x] Accepts Reverb Direct Checkout
+  - [x] Frequency of recent sales
   - [ ] Listing is near historic selling minimum
-  - [ ] Frequency of recent sales (not available via PG api)
+
+#### Possible Improvements
+  - [ ] Ajax-in badges involving price guide to speed up page load?
