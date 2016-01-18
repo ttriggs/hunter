@@ -15,6 +15,10 @@ module Hunter
       _links
     end
 
+    def ships_to_us?
+      shipping["us"]
+    end
+
     def product_price
       price["amount"].to_f
     end
