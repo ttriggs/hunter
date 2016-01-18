@@ -23,7 +23,7 @@ module Hunter
       end
 
       def badge_listings
-        listings_to_check.each do |listing|
+        listings.each do |listing|
           listing.add_badge(badge(listing)) if listing_is_quick_recent_seller?(listing)
         end
       end
@@ -39,30 +39,16 @@ module Hunter
       def badge_text(listing)
         [
           BADGE,
-          total_recent_sales(listing)
+          total_recent_transactions(listing)
         ].join(" ")
       end
 
       def listing_is_quick_recent_seller?(listing)
-        total_recent_sales(listing) >= MINIMUM_RECENT_SALES_FOR_BADGE
+        total_recent_transactions(listing) >= MINIMUM_RECENT_SALES_FOR_BADGE
       end
 
-      def total_recent_sales(listing)
-        listing.total_recent_sales_after(date: DATE_THRESHOLD_FOR_RECENT_SALES)
-      end
-
-      def listings_to_check
-        if low_price_group_listings.present?
-          low_price_group_listings
-        else
-          listings.first(3)
-        end
-      end
-
-      def low_price_group_listings
-        listings.select do |listing|
-          listing.badges.include?(IdealPriceMargin::BADGE)
-        end
+      def total_recent_transactions(listing)
+        listing.transactions.after_date(date: DATE_THRESHOLD_FOR_RECENT_SALES).filtered_transactions.count
       end
     end
   end

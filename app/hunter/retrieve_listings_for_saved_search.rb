@@ -1,5 +1,3 @@
-# require_relative 'badging/badge_listings'
-
 module Hunter
   class RetrieveListingsForSavedSearch
     attr_reader :saved_search
