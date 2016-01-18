@@ -1,11 +1,15 @@
 module Hunter
   module Badging
     module BadgingKlasses
-      ALL = [
+      GENERIC_BADGERS = [
         Hunter::Badging::Cheapest,
         Hunter::Badging::IdealPriceMargin,
         Hunter::Badging::AcceptsDirectCheckout,
-        Hunter::Badging::MultipleRecentSales, # should be run after IdealPriceMargin
+      ]
+
+      BADGERS_FOR_LOW_PRICE_GROUP = [
+        Hunter::Badging::MultipleRecentSales,
+        Hunter::Badging::RecentSalesNearLowestPrice
       ]
     end
   end

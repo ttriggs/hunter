@@ -1,14 +1,18 @@
 module Hunter
   module ReverbAPI
     class PriceGuideTransactions
-      MAXIMUM_TRANSACTIONS_TO_RETRIEVE = 40
+      TRANSACTIONS_PER_PAGE = 40
+
+      def self.transactions(listing:)
+        new(listing: listing).transactions
+      end
 
       def initialize(listing:)
         @listing = listing
       end
 
       def transactions
-        PriceGuideTransactionsResult.transactions(response: response)
+        PriceGuideTransactionsResult.new(response: response)
       end
 
       private
@@ -24,7 +28,7 @@ module Hunter
       end
 
       def query_options
-        { per_page: MAXIMUM_TRANSACTIONS_TO_RETRIEVE }
+        { per_page: TRANSACTIONS_PER_PAGE }
       end
     end
   end
